@@ -1,0 +1,2618 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>/home/lassi/obsidian-vaults/studies/Courses/Embedded System Project/IMU-mouse/Design/HW/imu-mouse/imu-mouse.kicad_sch</source>
+    <date>la 20. huhtikuuta 2024 15.31.28</date>
+    <tool>Eeschema 7.0.10-7.0.10~ubuntu22.04.1</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>imu-mouse board</title>
+        <company>Lassi Heikkilä</company>
+        <rev>1.0</rev>
+        <date>2024-04-01</date>
+        <source>imu-mouse.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="C1">
+      <value>1.0µF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY-GPHC_X7R_6.3V-to-250V_24.pdf</datasheet>
+      <fields>
+        <field name="DigiKey_Part_Number">CC0805KKX7R8BB105</field>
+        <field name="MANUFACTURER">YAGEO</field>
+        <field name="Price">0.13</field>
+        <field name="Purchase-URL">https://www.digikey.fi/en/products/detail/yageo/CC0805KKX7R8BB105/2833621</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="MANUFACTURER" value="YAGEO"/>
+      <property name="Price" value="0.13"/>
+      <property name="Purchase-URL" value="https://www.digikey.fi/en/products/detail/yageo/CC0805KKX7R8BB105/2833621"/>
+      <property name="DigiKey_Part_Number" value="CC0805KKX7R8BB105"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="imu-mouse.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4cd9ecb0-c232-44f8-8fd4-fde49d680448</tstamps>
+    </comp>
+    <comp ref="C2">
+      <value>10µF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY-GPHC_X7R_6.3V-to-250V_24.pdf</datasheet>
+      <fields>
+        <field name="DigiKey_Part_Number">CC0805KKX7R6BB106</field>
+        <field name="MANUFACTURER">YAGEO</field>
+        <field name="Price">0.22</field>
+        <field name="Purchase-URL">https://www.digikey.fi/en/products/detail/yageo/CC0805KKX7R6BB106/5195285</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="MANUFACTURER" value="YAGEO"/>
+      <property name="Price" value="0.22"/>
+      <property name="Purchase-URL" value="https://www.digikey.fi/en/products/detail/yageo/CC0805KKX7R6BB106/5195285"/>
+      <property name="DigiKey_Part_Number" value="CC0805KKX7R6BB106"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="imu-mouse.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>bdd0bf8c-3bb4-445a-88b5-e435a92f5c87</tstamps>
+    </comp>
+    <comp ref="C3">
+      <value>2.2µF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>https://www.yageo.com/upload/media/product/app/datasheet/mlcc/upy-gphc_x5r_4v-to-50v.pdf</datasheet>
+      <fields>
+        <field name="DigiKey_Part_Number">CC0805KRX5R7BB225</field>
+        <field name="MANUFACTURER">YAGEO</field>
+        <field name="Price">0.16</field>
+        <field name="Purchase-URL">https://www.digikey.fi/en/products/detail/yageo/CC0805KRX5R7BB225/5884185</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="MANUFACTURER" value="YAGEO"/>
+      <property name="Price" value="0.16"/>
+      <property name="Purchase-URL" value="https://www.digikey.fi/en/products/detail/yageo/CC0805KRX5R7BB225/5884185"/>
+      <property name="DigiKey_Part_Number" value="CC0805KRX5R7BB225"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="imu-mouse.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c294b630-cc45-4c89-beac-08ef8227aa2a</tstamps>
+    </comp>
+    <comp ref="C4">
+      <value>10µF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY-GPHC_X7R_6.3V-to-250V_24.pdf</datasheet>
+      <fields>
+        <field name="DigiKey_Part_Number">CC0805KKX7R6BB106</field>
+        <field name="MANUFACTURER">YAGEO</field>
+        <field name="Price">0.22</field>
+        <field name="Purchase-URL">https://www.digikey.fi/en/products/detail/yageo/CC0805KKX7R6BB106/5195285</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="MANUFACTURER" value="YAGEO"/>
+      <property name="Price" value="0.22"/>
+      <property name="Purchase-URL" value="https://www.digikey.fi/en/products/detail/yageo/CC0805KKX7R6BB106/5195285"/>
+      <property name="DigiKey_Part_Number" value="CC0805KKX7R6BB106"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="imu-mouse.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a8281537-530d-4a0a-bd91-0c1ae2c359de</tstamps>
+    </comp>
+    <comp ref="C5">
+      <value>10µF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY-GPHC_X7R_6.3V-to-250V_24.pdf</datasheet>
+      <fields>
+        <field name="DigiKey_Part_Number">CC0805KKX7R6BB106</field>
+        <field name="MANUFACTURER">YAGEO</field>
+        <field name="Price">0.22</field>
+        <field name="Purchase-URL">https://www.digikey.fi/en/products/detail/yageo/CC0805KKX7R6BB106/5195285</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="MANUFACTURER" value="YAGEO"/>
+      <property name="Price" value="0.22"/>
+      <property name="Purchase-URL" value="https://www.digikey.fi/en/products/detail/yageo/CC0805KKX7R6BB106/5195285"/>
+      <property name="DigiKey_Part_Number" value="CC0805KKX7R6BB106"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="imu-mouse.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d6cbaaf2-dc72-44bf-af2c-7f476bd94331</tstamps>
+    </comp>
+    <comp ref="C6">
+      <value>22pF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY-GP_NP0_16V-to-50V_18.pdf</datasheet>
+      <fields>
+        <field name="DigiKey_Part_Number">CC0805KKX7R6BB106</field>
+        <field name="MANUFACTURER">YAGEO</field>
+        <field name="Price">0.10</field>
+        <field name="Purchase-URL">https://www.digikey.fi/en/products/detail/yageo/CC0805KKX7R6BB106/5195285</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="MANUFACTURER" value="YAGEO"/>
+      <property name="Price" value="0.10"/>
+      <property name="Purchase-URL" value="https://www.digikey.fi/en/products/detail/yageo/CC0805KKX7R6BB106/5195285"/>
+      <property name="DigiKey_Part_Number" value="CC0805KKX7R6BB106"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="imu-mouse.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a3bacb42-b69d-4dae-a1ad-4f6c532ae5e3</tstamps>
+    </comp>
+    <comp ref="C7">
+      <value>22pF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY-GP_NP0_16V-to-50V_18.pdf</datasheet>
+      <fields>
+        <field name="DigiKey_Part_Number">CC0805KKX7R6BB106</field>
+        <field name="MANUFACTURER">YAGEO</field>
+        <field name="Price">0.10</field>
+        <field name="Purchase-URL">https://www.digikey.fi/en/products/detail/yageo/CC0805KKX7R6BB106/5195285</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="MANUFACTURER" value="YAGEO"/>
+      <property name="Price" value="0.10"/>
+      <property name="Purchase-URL" value="https://www.digikey.fi/en/products/detail/yageo/CC0805KKX7R6BB106/5195285"/>
+      <property name="DigiKey_Part_Number" value="CC0805KKX7R6BB106"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="imu-mouse.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>19ae2402-8de0-4ea0-9379-115543217806</tstamps>
+    </comp>
+    <comp ref="C8">
+      <value>10µF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY-GPHC_X7R_6.3V-to-250V_24.pdf</datasheet>
+      <fields>
+        <field name="DigiKey_Part_Number">CC0805KKX7R6BB106</field>
+        <field name="MANUFACTURER">YAGEO</field>
+        <field name="Price">0.22</field>
+        <field name="Purchase-URL">https://www.digikey.fi/en/products/detail/yageo/CC0805KKX7R6BB106/5195285</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="MANUFACTURER" value="YAGEO"/>
+      <property name="Price" value="0.22"/>
+      <property name="Purchase-URL" value="https://www.digikey.fi/en/products/detail/yageo/CC0805KKX7R6BB106/5195285"/>
+      <property name="DigiKey_Part_Number" value="CC0805KKX7R6BB106"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="imu-mouse.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6855932e-fa94-4a39-9ab8-9a3fa876743e</tstamps>
+    </comp>
+    <comp ref="C9">
+      <value>220nF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY-GPHC_X7R_6.3V-to-250V_24.pdf</datasheet>
+      <fields>
+        <field name="DigiKey_Part_Number">CC0805KRX7R8BB224</field>
+        <field name="MANUFACTURER">YAGEO</field>
+        <field name="Price">0.13</field>
+        <field name="Purchase-URL">https://www.digikey.fi/en/products/detail/yageo/CC0805KRX7R8BB224/2833597</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="MANUFACTURER" value="YAGEO"/>
+      <property name="Price" value="0.13"/>
+      <property name="Purchase-URL" value="https://www.digikey.fi/en/products/detail/yageo/CC0805KRX7R8BB224/2833597"/>
+      <property name="DigiKey_Part_Number" value="CC0805KRX7R8BB224"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="imu-mouse.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ee818174-9df0-43f3-a87f-a10147fa7573</tstamps>
+    </comp>
+    <comp ref="C10">
+      <value>1.0µF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY-GPHC_X7R_6.3V-to-250V_24.pdf</datasheet>
+      <fields>
+        <field name="DigiKey_Part_Number">CC0805KKX7R8BB105</field>
+        <field name="MANUFACTURER">YAGEO</field>
+        <field name="Price">0.13</field>
+        <field name="Purchase-URL">https://www.digikey.fi/en/products/detail/yageo/CC0805KKX7R8BB105/2833621</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="MANUFACTURER" value="YAGEO"/>
+      <property name="Price" value="0.13"/>
+      <property name="Purchase-URL" value="https://www.digikey.fi/en/products/detail/yageo/CC0805KKX7R8BB105/2833621"/>
+      <property name="DigiKey_Part_Number" value="CC0805KKX7R8BB105"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="imu-mouse.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b35f72a6-9ab1-4f93-a41a-d374acef97c7</tstamps>
+    </comp>
+    <comp ref="C11">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY-GPHC_X7R_6.3V-to-250V_24.pdf</datasheet>
+      <fields>
+        <field name="DigiKey_Part_Number">CC0805KRX7R9BB104</field>
+        <field name="Price">0.09</field>
+        <field name="Purchase-URL">https://www.digikey.fi/en/products/detail/yageo/CC0805KRX7R9BB104/302874</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Price" value="0.09"/>
+      <property name="Purchase-URL" value="https://www.digikey.fi/en/products/detail/yageo/CC0805KRX7R9BB104/302874"/>
+      <property name="DigiKey_Part_Number" value="CC0805KRX7R9BB104"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="imu-mouse.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e70a233b-ac71-4197-9a50-3c6bd5d91982</tstamps>
+    </comp>
+    <comp ref="C12">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY-GPHC_X7R_6.3V-to-250V_24.pdf</datasheet>
+      <fields>
+        <field name="DigiKey_Part_Number">CC0805KRX7R9BB104</field>
+        <field name="Price">0.09</field>
+        <field name="Purchase-URL">https://www.digikey.fi/en/products/detail/yageo/CC0805KRX7R9BB104/302874</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Price" value="0.09"/>
+      <property name="Purchase-URL" value="https://www.digikey.fi/en/products/detail/yageo/CC0805KRX7R9BB104/302874"/>
+      <property name="DigiKey_Part_Number" value="CC0805KRX7R9BB104"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="imu-mouse.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>fdb23b32-bf63-4bd3-ad88-0d2f79d1a016</tstamps>
+    </comp>
+    <comp ref="C13">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY-GPHC_X7R_6.3V-to-250V_24.pdf</datasheet>
+      <fields>
+        <field name="DigiKey_Part_Number">CC0805KRX7R9BB104</field>
+        <field name="Price">0.09</field>
+        <field name="Purchase-URL">https://www.digikey.fi/en/products/detail/yageo/CC0805KRX7R9BB104/302874</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Price" value="0.09"/>
+      <property name="Purchase-URL" value="https://www.digikey.fi/en/products/detail/yageo/CC0805KRX7R9BB104/302874"/>
+      <property name="DigiKey_Part_Number" value="CC0805KRX7R9BB104"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="imu-mouse.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>bcc127de-5ddf-46ca-8871-a83183055e2b</tstamps>
+    </comp>
+    <comp ref="C14">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY-GPHC_X7R_6.3V-to-250V_24.pdf</datasheet>
+      <fields>
+        <field name="DigiKey_Part_Number">CC0805KRX7R9BB104</field>
+        <field name="Price">0.09</field>
+        <field name="Purchase-URL">https://www.digikey.fi/en/products/detail/yageo/CC0805KRX7R9BB104/302874</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Price" value="0.09"/>
+      <property name="Purchase-URL" value="https://www.digikey.fi/en/products/detail/yageo/CC0805KRX7R9BB104/302874"/>
+      <property name="DigiKey_Part_Number" value="CC0805KRX7R9BB104"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="imu-mouse.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>fec28aa6-72bd-4b7c-bfee-3527df04748c</tstamps>
+    </comp>
+    <comp ref="C15">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY-GPHC_X7R_6.3V-to-250V_24.pdf</datasheet>
+      <fields>
+        <field name="DigiKey_Part_Number">CC0805KRX7R9BB104</field>
+        <field name="Price">0.09</field>
+        <field name="Purchase-URL">https://www.digikey.fi/en/products/detail/yageo/CC0805KRX7R9BB104/302874</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Price" value="0.09"/>
+      <property name="Purchase-URL" value="https://www.digikey.fi/en/products/detail/yageo/CC0805KRX7R9BB104/302874"/>
+      <property name="DigiKey_Part_Number" value="CC0805KRX7R9BB104"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="imu-mouse.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>70317daf-99da-409d-b492-a7575b512334</tstamps>
+    </comp>
+    <comp ref="C16">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY-GPHC_X7R_6.3V-to-250V_24.pdf</datasheet>
+      <fields>
+        <field name="DigiKey_Part_Number">CC0805KRX7R9BB104</field>
+        <field name="Price">0.09</field>
+        <field name="Purchase-URL">https://www.digikey.fi/en/products/detail/yageo/CC0805KRX7R9BB104/302874</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Price" value="0.09"/>
+      <property name="Purchase-URL" value="https://www.digikey.fi/en/products/detail/yageo/CC0805KRX7R9BB104/302874"/>
+      <property name="DigiKey_Part_Number" value="CC0805KRX7R9BB104"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="imu-mouse.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a7649115-a452-4629-a2ea-6988a9c63cc5</tstamps>
+    </comp>
+    <comp ref="C17">
+      <value>1.0µF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY-GPHC_X7R_6.3V-to-250V_24.pdf</datasheet>
+      <fields>
+        <field name="DigiKey_Part_Number">CC0805KKX7R8BB105</field>
+        <field name="MANUFACTURER">YAGEO</field>
+        <field name="Price">0.13</field>
+        <field name="Purchase-URL">https://www.digikey.fi/en/products/detail/yageo/CC0805KKX7R8BB105/2833621</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="MANUFACTURER" value="YAGEO"/>
+      <property name="Price" value="0.13"/>
+      <property name="Purchase-URL" value="https://www.digikey.fi/en/products/detail/yageo/CC0805KKX7R8BB105/2833621"/>
+      <property name="DigiKey_Part_Number" value="CC0805KKX7R8BB105"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="imu-mouse.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>91ee9ae9-c8e8-48c8-9da1-a37173873c7e</tstamps>
+    </comp>
+    <comp ref="C18">
+      <value>2.2µF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>https://www.yageo.com/upload/media/product/app/datasheet/mlcc/upy-gphc_x5r_4v-to-50v.pdf</datasheet>
+      <fields>
+        <field name="DigiKey_Part_Number">CC0805KRX5R7BB225</field>
+        <field name="Price">0.16</field>
+        <field name="Purchase-URL">https://www.digikey.fi/en/products/detail/yageo/CC0805KRX5R7BB225/5884185</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Price" value="0.16"/>
+      <property name="Purchase-URL" value="https://www.digikey.fi/en/products/detail/yageo/CC0805KRX5R7BB225/5884185"/>
+      <property name="DigiKey_Part_Number" value="CC0805KRX5R7BB225"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="imu-mouse.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>42fa66af-b980-4f2a-9135-93808488bd18</tstamps>
+    </comp>
+    <comp ref="D1">
+      <value>LED_B</value>
+      <footprint>LED_SMD:LED_0805_2012Metric</footprint>
+      <datasheet>https://www.we-online.com/katalog/datasheet/150080BS75000.pdf</datasheet>
+      <fields>
+        <field name="DigiKey_Part_Number">150080BS75000</field>
+        <field name="MANUFACTURER">Würth Elektronik</field>
+        <field name="Price">0.18</field>
+        <field name="Purchase-URL">https://www.digikey.fi/en/products/detail/w%C3%BCrth-elektronik/150080BS75000/4489912</field>
+      </fields>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <property name="MANUFACTURER" value="Würth Elektronik"/>
+      <property name="Price" value="0.18"/>
+      <property name="Purchase-URL" value="https://www.digikey.fi/en/products/detail/w%C3%BCrth-elektronik/150080BS75000/4489912"/>
+      <property name="DigiKey_Part_Number" value="150080BS75000"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="imu-mouse.kicad_sch"/>
+      <property name="ki_description" value="Light emitting diode, small symbol"/>
+      <property name="ki_keywords" value="LED diode light-emitting-diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>514fc402-0a3b-4655-b15a-580b5d2126e8</tstamps>
+    </comp>
+    <comp ref="D2">
+      <value>LED_R</value>
+      <footprint>LED_SMD:LED_0805_2012Metric</footprint>
+      <datasheet>https://www.we-online.com/katalog/datasheet/150080RS75000.pdf</datasheet>
+      <fields>
+        <field name="DigiKey_Part_Number">150080RS75000</field>
+        <field name="MANUFACTURER">Würth Elektronik</field>
+        <field name="Price">0.18</field>
+        <field name="Purchase-URL">https://www.digikey.fi/en/products/detail/w%C3%BCrth-elektronik/150080RS75000/4489918</field>
+      </fields>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <property name="MANUFACTURER" value="Würth Elektronik"/>
+      <property name="Price" value="0.18"/>
+      <property name="Purchase-URL" value="https://www.digikey.fi/en/products/detail/w%C3%BCrth-elektronik/150080RS75000/4489918"/>
+      <property name="DigiKey_Part_Number" value="150080RS75000"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="imu-mouse.kicad_sch"/>
+      <property name="ki_description" value="Light emitting diode, small symbol"/>
+      <property name="ki_keywords" value="LED diode light-emitting-diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>bd3ba8ed-d0b4-40f6-a7a9-32028ca5b30c</tstamps>
+    </comp>
+    <comp ref="H1">
+      <value>MountingHole_Pad</value>
+      <footprint>MountingHole:MountingHole_3.5mm_Pad</footprint>
+      <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="imu-mouse.kicad_sch"/>
+      <property name="ki_description" value="Mounting Hole with connection"/>
+      <property name="ki_keywords" value="mounting hole"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>324bb352-9bd0-419f-9c2c-2411bc73487e</tstamps>
+    </comp>
+    <comp ref="H2">
+      <value>MountingHole_Pad</value>
+      <footprint>MountingHole:MountingHole_3.5mm_Pad</footprint>
+      <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="imu-mouse.kicad_sch"/>
+      <property name="ki_description" value="Mounting Hole with connection"/>
+      <property name="ki_keywords" value="mounting hole"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3583af2f-ac5b-42bd-809f-6c6b4e52d6ea</tstamps>
+    </comp>
+    <comp ref="H3">
+      <value>MountingHole_Pad</value>
+      <footprint>MountingHole:MountingHole_3.5mm_Pad</footprint>
+      <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="imu-mouse.kicad_sch"/>
+      <property name="ki_description" value="Mounting Hole with connection"/>
+      <property name="ki_keywords" value="mounting hole"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>111426b3-849b-4025-8394-c0d98bbdeb00</tstamps>
+    </comp>
+    <comp ref="J1">
+      <value>Conn_01x01_Pin</value>
+      <footprint>Connector_Wire:SolderWire-0.1sqmm_1x01_D0.4mm_OD1mm</footprint>
+      <libsource lib="Connector" part="Conn_01x01_Pin" description="Generic connector, single row, 01x01, script generated"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="imu-mouse.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x01, script generated"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7cd19420-2936-4472-940b-52e5c4796837</tstamps>
+    </comp>
+    <comp ref="J2">
+      <value>Conn_01x01_Pin</value>
+      <footprint>Connector_Wire:SolderWire-0.1sqmm_1x01_D0.4mm_OD1mm</footprint>
+      <libsource lib="Connector" part="Conn_01x01_Pin" description="Generic connector, single row, 01x01, script generated"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="imu-mouse.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x01, script generated"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5b669ba2-9039-44c2-8506-ea7ba6a8e5b6</tstamps>
+    </comp>
+    <comp ref="J3">
+      <value>USB_C_Receptacle_PowerOnly_6P</value>
+      <footprint>Connector_USB:USB_C_Receptacle_GCT_USB4125-xx-x_6P_TopMnt_Horizontal</footprint>
+      <datasheet>https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/5561/USB4125%20-%20Product%20Drawing.pdf</datasheet>
+      <fields>
+        <field name="DigiKey_Part_Number">USB4125-GF-A</field>
+        <field name="MANUFACTURER">GCT</field>
+        <field name="Price">0.62</field>
+        <field name="Purchase-URL">https://www.digikey.fi/en/products/detail/gct/USB4125-GF-A/13547388</field>
+      </fields>
+      <libsource lib="Connector" part="USB_C_Receptacle_PowerOnly_6P" description="USB Power-Only 6P Type-C Receptacle connector"/>
+      <property name="MANUFACTURER" value="GCT"/>
+      <property name="Price" value="0.62"/>
+      <property name="Purchase-URL" value="https://www.digikey.fi/en/products/detail/gct/USB4125-GF-A/13547388"/>
+      <property name="DigiKey_Part_Number" value="USB4125-GF-A"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="imu-mouse.kicad_sch"/>
+      <property name="ki_description" value="USB Power-Only 6P Type-C Receptacle connector"/>
+      <property name="ki_keywords" value="usb universal serial bus type-C power-only charging-only 6P 6C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2dc6d1f1-6bad-4764-94af-0693ddfbd3b6</tstamps>
+    </comp>
+    <comp ref="J4">
+      <value>Conn_ARM_JTAG_SWD_10</value>
+      <footprint>Connector_PinHeader_1.27mm:PinHeader_2x05_P1.27mm_Vertical</footprint>
+      <datasheet>http://infocenter.arm.com/help/topic/com.arm.doc.ddi0314h/DDI0314H_coresight_components_trm.pdf</datasheet>
+      <fields>
+        <field name="DigiKey_Part_Number">FTSH-105-01-L-DV-007-K</field>
+        <field name="MANUFACTURER">Samtec Inc.</field>
+        <field name="Price">2.08</field>
+        <field name="Purchase-URL">https://www.digikey.fi/en/products/detail/samtec-inc/FTSH-105-01-L-DV-007-K/6678175</field>
+      </fields>
+      <libsource lib="Connector" part="Conn_ARM_JTAG_SWD_10" description="Cortex Debug Connector, standard ARM Cortex-M SWD and JTAG interface"/>
+      <property name="Purchase-URL" value="https://www.digikey.fi/en/products/detail/samtec-inc/FTSH-105-01-L-DV-007-K/6678175"/>
+      <property name="MANUFACTURER" value="Samtec Inc."/>
+      <property name="Price" value="2.08"/>
+      <property name="DigiKey_Part_Number" value="FTSH-105-01-L-DV-007-K"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="imu-mouse.kicad_sch"/>
+      <property name="ki_description" value="Cortex Debug Connector, standard ARM Cortex-M SWD and JTAG interface"/>
+      <property name="ki_keywords" value="Cortex Debug Connector ARM SWD JTAG"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b8d552b7-8a28-463e-bb34-192dd12022e8</tstamps>
+    </comp>
+    <comp ref="J5">
+      <value>Conn_01x01_Pin</value>
+      <footprint>Connector_Wire:SolderWire-0.1sqmm_1x01_D0.4mm_OD1mm</footprint>
+      <libsource lib="Connector" part="Conn_01x01_Pin" description="Generic connector, single row, 01x01, script generated"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="imu-mouse.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x01, script generated"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>257e1b67-435c-4ec3-9560-336e685d996f</tstamps>
+    </comp>
+    <comp ref="J6">
+      <value>Conn_01x01_Pin</value>
+      <footprint>Connector_Wire:SolderWire-0.1sqmm_1x01_D0.4mm_OD1mm</footprint>
+      <libsource lib="Connector" part="Conn_01x01_Pin" description="Generic connector, single row, 01x01, script generated"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="imu-mouse.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x01, script generated"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>afe7ff93-0497-4b2a-ab93-e3dc60036eb1</tstamps>
+    </comp>
+    <comp ref="L1">
+      <value>2.2µH</value>
+      <footprint>Inductor_SMD:L_0805_2012Metric</footprint>
+      <datasheet>https://search.murata.co.jp/Ceramy/image/img/P02/J(E)TE243A-0029.pdf</datasheet>
+      <fields>
+        <field name="DigiKey_Part_Number">dfe201210u-2r2m-p2</field>
+        <field name="MANUFACTURER">Murata Electronics</field>
+        <field name="Price">0.30</field>
+        <field name="Purchase-URL">https://www.digikey.fi/en/products/detail/murata-electronics/dfe201210u-2r2m-p2/7595453</field>
+      </fields>
+      <libsource lib="Device" part="L_Small" description="Inductor, small symbol"/>
+      <property name="Purchase-URL" value="https://www.digikey.fi/en/products/detail/murata-electronics/dfe201210u-2r2m-p2/7595453"/>
+      <property name="MANUFACTURER" value="Murata Electronics"/>
+      <property name="Price" value="0.30"/>
+      <property name="DigiKey_Part_Number" value="dfe201210u-2r2m-p2"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="imu-mouse.kicad_sch"/>
+      <property name="ki_description" value="Inductor, small symbol"/>
+      <property name="ki_keywords" value="inductor choke coil reactor magnetic"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3c804140-53bc-44e3-a305-34c7c097ca16</tstamps>
+    </comp>
+    <comp ref="LED1">
+      <value>SMLP34RGBN1W3</value>
+      <footprint>SMLP34_ROM</footprint>
+      <datasheet>https://fscdn.rohm.com/en/products/databook/datasheet/opto/led/chip_multi/smlp34rgbn1w3-e.pdf</datasheet>
+      <fields>
+        <field name="DigiKey_Part_Number">SMLP34RGBN1W3</field>
+        <field name="MANUFACTURER">Rohm Semiconductor</field>
+        <field name="Price">1.26</field>
+        <field name="Purchase-URL">https://www.digikey.fi/en/products/detail/rohm-semiconductor/SMLP34RGBN1W3/15629924</field>
+      </fields>
+      <libsource lib="2024-04-16_05-36-31" part="SMLP34RGBN1W3" description=""/>
+      <property name="MANUFACTURER" value="Rohm Semiconductor"/>
+      <property name="Price" value="1.26"/>
+      <property name="Purchase-URL" value="https://www.digikey.fi/en/products/detail/rohm-semiconductor/SMLP34RGBN1W3/15629924"/>
+      <property name="DigiKey_Part_Number" value="SMLP34RGBN1W3"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="imu-mouse.kicad_sch"/>
+      <property name="ki_keywords" value="SMLP34RGBN1W3"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>eaff1486-7eeb-4eb7-9c14-53571007ae94</tstamps>
+    </comp>
+    <comp ref="Q1">
+      <value>PJX8601_R1_00001</value>
+      <footprint>DMC2400UV-13:SOT50P160X60-6N</footprint>
+      <datasheet>https://www.panjit.com.tw/upload/datasheet/PJX8601.pdf</datasheet>
+      <fields>
+        <field name="Check_prices">https://www.snapeda.com/parts/DMC2400UV/Zetex/view-part/?ref=eda</field>
+        <field name="Description">
+Trans MOSFET N/P-CH 20V 1.030A/0.7A 6-Pin SOT-563 T/R
+</field>
+        <field name="DigiKey_Part_Number">PJX8601-R1-00001</field>
+        <field name="MANUFACTURER">Panjit International Inc.</field>
+        <field name="MF">Diodes Zetex</field>
+        <field name="MP">DMC2400UV</field>
+        <field name="Package">None</field>
+        <field name="Price">0.33</field>
+        <field name="Purchase-URL">https://www.digikey.fi/en/products/detail/panjit-international-inc/PJX8601-R1-00001/15811078</field>
+        <field name="SnapEDA_Link">https://www.snapeda.com/parts/DMC2400UV/Zetex/view-part/?ref=snap</field>
+      </fields>
+      <libsource lib="DMC2400UV" part="DMC2400UV" description=""/>
+      <property name="DigiKey_Part_Number" value="PJX8601-R1-00001"/>
+      <property name="SnapEDA_Link" value="https://www.snapeda.com/parts/DMC2400UV/Zetex/view-part/?ref=snap"/>
+      <property name="Description" value="&#xA;Trans MOSFET N/P-CH 20V 1.030A/0.7A 6-Pin SOT-563 T/R&#xA;"/>
+      <property name="MF" value="Diodes Zetex"/>
+      <property name="Package" value="None"/>
+      <property name="Check_prices" value="https://www.snapeda.com/parts/DMC2400UV/Zetex/view-part/?ref=eda"/>
+      <property name="MP" value="DMC2400UV"/>
+      <property name="MANUFACTURER" value="Panjit International Inc."/>
+      <property name="Price" value="0.33"/>
+      <property name="Purchase-URL" value="https://www.digikey.fi/en/products/detail/panjit-international-inc/PJX8601-R1-00001/15811078"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="imu-mouse.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b6663efb-f7dd-4b0c-94bd-b08e4795b310 a483cd67-cdbf-42cf-b64e-7e535546946f</tstamps>
+    </comp>
+    <comp ref="R1">
+      <value>4.7kΩ</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <datasheet>https://www.yageo.com/upload/media/product/products/datasheet/rchip/PYu-RC_Group_51_RoHS_L_12.pdf</datasheet>
+      <fields>
+        <field name="DigiKey_Part_Number">RC0805FR-071K5L</field>
+        <field name="MANUFACTURER">YAGEO</field>
+        <field name="Price">0.09</field>
+        <field name="Purchase-URL">https://www.digikey.fi/en/products/detail/yageo/RC0805FR-071K5L/727496</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Price" value="0.09"/>
+      <property name="Purchase-URL" value="https://www.digikey.fi/en/products/detail/yageo/RC0805FR-071K5L/727496"/>
+      <property name="MANUFACTURER" value="YAGEO"/>
+      <property name="DigiKey_Part_Number" value="RC0805FR-071K5L"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="imu-mouse.kicad_sch"/>
+      <property name="ki_description" value="Resistor, small symbol"/>
+      <property name="ki_keywords" value="R resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2cb05378-7a12-460a-9a49-2c8ffdbec5d7</tstamps>
+    </comp>
+    <comp ref="R2">
+      <value>10kΩ</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <datasheet>https://www.yageo.com/upload/media/product/app/datasheet/rchip/pyu-rt_1-to-0.01_rohs_l.pdf</datasheet>
+      <fields>
+        <field name="DigiKey_Part_Number">RT0805FRE0710KL</field>
+        <field name="MANUFACTURER">YAGEO</field>
+        <field name="Price">0.09</field>
+        <field name="Purchase-URL">https://www.digikey.fi/en/products/detail/yageo/RT0805FRE0710KL/1078908</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="MANUFACTURER" value="YAGEO"/>
+      <property name="Price" value="0.09"/>
+      <property name="Purchase-URL" value="https://www.digikey.fi/en/products/detail/yageo/RT0805FRE0710KL/1078908"/>
+      <property name="DigiKey_Part_Number" value="RT0805FRE0710KL"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="imu-mouse.kicad_sch"/>
+      <property name="ki_description" value="Resistor, small symbol"/>
+      <property name="ki_keywords" value="R resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>242d5ad9-04b4-4f1a-82cf-71087ef8506f</tstamps>
+    </comp>
+    <comp ref="R3">
+      <value>340Ω</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <datasheet>https://www.yageo.com/upload/media/product/products/datasheet/rchip/PYu-RC_Group_51_RoHS_L_12.pdf</datasheet>
+      <fields>
+        <field name="DigiKey_Part_Number">RC0805FR-07330RL</field>
+        <field name="MANUFACTURER">YAGEO</field>
+        <field name="Price">0.09</field>
+        <field name="Purchase-URL">https://www.digikey.fi/en/products/detail/yageo/RC0805FR-07330RL/727866</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="MANUFACTURER" value="YAGEO"/>
+      <property name="Price" value="0.09"/>
+      <property name="Purchase-URL" value="https://www.digikey.fi/en/products/detail/yageo/RC0805FR-07330RL/727866"/>
+      <property name="DigiKey_Part_Number" value="RC0805FR-07330RL"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="imu-mouse.kicad_sch"/>
+      <property name="ki_description" value="Resistor, small symbol"/>
+      <property name="ki_keywords" value="R resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>fc8519e4-5f91-4e48-a35f-82c278410287</tstamps>
+    </comp>
+    <comp ref="R4">
+      <value>120Ω</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <datasheet>https://www.yageo.com/upload/media/product/app/datasheet/rchip/pyu-rt_1-to-0.01_rohs_l.pdf</datasheet>
+      <fields>
+        <field name="DigiKey_Part_Number">RT0805FRE07120RL</field>
+        <field name="MANUFACTURER">YAGEO</field>
+        <field name="Price">0.09</field>
+        <field name="Purchase-URL">https://www.digikey.fi/en/products/detail/yageo/RT0805FRE07120RL/1078930</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="MANUFACTURER" value="YAGEO"/>
+      <property name="Price" value="0.09"/>
+      <property name="Purchase-URL" value="https://www.digikey.fi/en/products/detail/yageo/RT0805FRE07120RL/1078930"/>
+      <property name="DigiKey_Part_Number" value="RT0805FRE07120RL"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="imu-mouse.kicad_sch"/>
+      <property name="ki_description" value="Resistor, small symbol"/>
+      <property name="ki_keywords" value="R resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8d3bd935-d67f-4f0b-9091-467978e76bbc</tstamps>
+    </comp>
+    <comp ref="R5">
+      <value>120Ω</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <datasheet>https://www.yageo.com/upload/media/product/app/datasheet/rchip/pyu-rt_1-to-0.01_rohs_l.pdf</datasheet>
+      <fields>
+        <field name="DigiKey_Part_Number">RT0805FRE07120RL</field>
+        <field name="MANUFACTURER">YAGEO</field>
+        <field name="Price">0.09</field>
+        <field name="Purchase-URL">https://www.digikey.fi/en/products/detail/yageo/RT0805FRE07120RL/1078930</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="MANUFACTURER" value="YAGEO"/>
+      <property name="Price" value="0.09"/>
+      <property name="Purchase-URL" value="https://www.digikey.fi/en/products/detail/yageo/RT0805FRE07120RL/1078930"/>
+      <property name="DigiKey_Part_Number" value="RT0805FRE07120RL"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="imu-mouse.kicad_sch"/>
+      <property name="ki_description" value="Resistor, small symbol"/>
+      <property name="ki_keywords" value="R resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d2c8637b-de4b-4891-a505-1ad8642de158</tstamps>
+    </comp>
+    <comp ref="R6">
+      <value>1MΩ</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <datasheet>https://www.yageo.com/upload/media/product/products/datasheet/rchip/PYu-RC_Group_51_RoHS_L_12.pdf</datasheet>
+      <fields>
+        <field name="DigiKey_Part_Number">RC0805FR-071ML</field>
+        <field name="MANUFACTURER">YAGEO</field>
+        <field name="Price">0.09</field>
+        <field name="Purchase-URL">https://www.digikey.fi/en/products/detail/yageo/RC0805FR-071ML/727445</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="MANUFACTURER" value="YAGEO"/>
+      <property name="Price" value="0.09"/>
+      <property name="Purchase-URL" value="https://www.digikey.fi/en/products/detail/yageo/RC0805FR-071ML/727445"/>
+      <property name="DigiKey_Part_Number" value="RC0805FR-071ML"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="imu-mouse.kicad_sch"/>
+      <property name="ki_description" value="Resistor, small symbol"/>
+      <property name="ki_keywords" value="R resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00387f06-72dd-47b4-8b56-7d355b9bd5ec</tstamps>
+    </comp>
+    <comp ref="R7">
+      <value>1MΩ</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <datasheet>https://www.yageo.com/upload/media/product/products/datasheet/rchip/PYu-RC_Group_51_RoHS_L_12.pdf</datasheet>
+      <fields>
+        <field name="DigiKey_Part_Number">RC0805FR-071ML</field>
+        <field name="MANUFACTURER">YAGEO</field>
+        <field name="Price">0.09</field>
+        <field name="Purchase-URL">https://www.digikey.fi/en/products/detail/yageo/RC0805FR-071ML/727445</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="MANUFACTURER" value="YAGEO"/>
+      <property name="Price" value="0.09"/>
+      <property name="Purchase-URL" value="https://www.digikey.fi/en/products/detail/yageo/RC0805FR-071ML/727445"/>
+      <property name="DigiKey_Part_Number" value="RC0805FR-071ML"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="imu-mouse.kicad_sch"/>
+      <property name="ki_description" value="Resistor, small symbol"/>
+      <property name="ki_keywords" value="R resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d229f2c1-cb36-47d6-80c5-4101bd629631</tstamps>
+    </comp>
+    <comp ref="R8">
+      <value>1MΩ</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <datasheet>https://www.yageo.com/upload/media/product/products/datasheet/rchip/PYu-RC_Group_51_RoHS_L_12.pdf</datasheet>
+      <fields>
+        <field name="DigiKey_Part_Number">RC0805FR-071ML</field>
+        <field name="MANUFACTURER">YAGEO</field>
+        <field name="Price">0.09</field>
+        <field name="Purchase-URL">https://www.digikey.fi/en/products/detail/yageo/RC0805FR-071ML/727445</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="MANUFACTURER" value="YAGEO"/>
+      <property name="Price" value="0.09"/>
+      <property name="Purchase-URL" value="https://www.digikey.fi/en/products/detail/yageo/RC0805FR-071ML/727445"/>
+      <property name="DigiKey_Part_Number" value="RC0805FR-071ML"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="imu-mouse.kicad_sch"/>
+      <property name="ki_description" value="Resistor, small symbol"/>
+      <property name="ki_keywords" value="R resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b219753a-4e49-443c-8cfa-b0863f167651</tstamps>
+    </comp>
+    <comp ref="R9">
+      <value>5.1kΩ</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <datasheet>https://www.yageo.com/upload/media/product/products/datasheet/rchip/PYu-RC_Group_51_RoHS_L_12.pdf</datasheet>
+      <fields>
+        <field name="DigiKey_Part_Number">RC0805JR-075K1L</field>
+        <field name="MANUFACTURER">YAGEO</field>
+        <field name="Price">0.09</field>
+        <field name="Purchase-URL">https://www.digikey.fi/en/products/detail/yageo/RC0805JR-075K1L/728338</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Purchase-URL" value="https://www.digikey.fi/en/products/detail/yageo/RC0805JR-075K1L/728338"/>
+      <property name="MANUFACTURER" value="YAGEO"/>
+      <property name="Price" value="0.09"/>
+      <property name="DigiKey_Part_Number" value="RC0805JR-075K1L"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="imu-mouse.kicad_sch"/>
+      <property name="ki_description" value="Resistor, small symbol"/>
+      <property name="ki_keywords" value="R resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>145b664d-48e1-4e06-806c-b22a5b1bcb2c</tstamps>
+    </comp>
+    <comp ref="R10">
+      <value>5.1kΩ</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <datasheet>https://www.yageo.com/upload/media/product/products/datasheet/rchip/PYu-RC_Group_51_RoHS_L_12.pdf</datasheet>
+      <fields>
+        <field name="DigiKey_Part_Number">RC0805JR-075K1L</field>
+        <field name="MANUFACTURER">YAGEO</field>
+        <field name="Price">0.09</field>
+        <field name="Purchase-URL">https://www.digikey.fi/en/products/detail/yageo/RC0805JR-075K1L/728338</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Purchase-URL" value="https://www.digikey.fi/en/products/detail/yageo/RC0805JR-075K1L/728338"/>
+      <property name="MANUFACTURER" value="YAGEO"/>
+      <property name="Price" value="0.09"/>
+      <property name="DigiKey_Part_Number" value="RC0805JR-075K1L"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="imu-mouse.kicad_sch"/>
+      <property name="ki_description" value="Resistor, small symbol"/>
+      <property name="ki_keywords" value="R resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>252db28d-3cdb-44dd-aead-3b5bf9522ceb</tstamps>
+    </comp>
+    <comp ref="R11">
+      <value>10kΩ</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <datasheet>https://www.yageo.com/upload/media/product/app/datasheet/rchip/pyu-rt_1-to-0.01_rohs_l.pdf</datasheet>
+      <fields>
+        <field name="DigiKey_Part_Number">RT0805FRE0710KL</field>
+        <field name="MANUFACTURER">YAGEO</field>
+        <field name="Price">0.09</field>
+        <field name="Purchase-URL">https://www.digikey.fi/en/products/detail/yageo/RT0805FRE0710KL/1078908</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="MANUFACTURER" value="YAGEO"/>
+      <property name="Price" value="0.09"/>
+      <property name="Purchase-URL" value="https://www.digikey.fi/en/products/detail/yageo/RT0805FRE0710KL/1078908"/>
+      <property name="DigiKey_Part_Number" value="RT0805FRE0710KL"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="imu-mouse.kicad_sch"/>
+      <property name="ki_description" value="Resistor, small symbol"/>
+      <property name="ki_keywords" value="R resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8275ca4a-5efc-497e-88ce-c8062fe5ef60</tstamps>
+    </comp>
+    <comp ref="R12">
+      <value>10kΩ</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <datasheet>https://www.yageo.com/upload/media/product/app/datasheet/rchip/pyu-rt_1-to-0.01_rohs_l.pdf</datasheet>
+      <fields>
+        <field name="DigiKey_Part_Number">RT0805FRE0710KL</field>
+        <field name="MANUFACTURER">YAGEO</field>
+        <field name="Price">0.09</field>
+        <field name="Purchase-URL">https://www.digikey.fi/en/products/detail/yageo/RT0805FRE0710KL/1078908</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="MANUFACTURER" value="YAGEO"/>
+      <property name="Price" value="0.09"/>
+      <property name="Purchase-URL" value="https://www.digikey.fi/en/products/detail/yageo/RT0805FRE0710KL/1078908"/>
+      <property name="DigiKey_Part_Number" value="RT0805FRE0710KL"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="imu-mouse.kicad_sch"/>
+      <property name="ki_description" value="Resistor, small symbol"/>
+      <property name="ki_keywords" value="R resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1efa41c5-9b82-46b8-b486-89e8346a14fa</tstamps>
+    </comp>
+    <comp ref="R13">
+      <value>10kΩ</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <datasheet>https://www.yageo.com/upload/media/product/app/datasheet/rchip/pyu-rt_1-to-0.01_rohs_l.pdf</datasheet>
+      <fields>
+        <field name="DigiKey_Part_Number">RT0805FRE0710KL</field>
+        <field name="MANUFACTURER">YAGEO</field>
+        <field name="Price">0.09</field>
+        <field name="Purchase-URL">https://www.digikey.fi/en/products/detail/yageo/RT0805FRE0710KL/1078908</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="MANUFACTURER" value="YAGEO"/>
+      <property name="Price" value="0.09"/>
+      <property name="Purchase-URL" value="https://www.digikey.fi/en/products/detail/yageo/RT0805FRE0710KL/1078908"/>
+      <property name="DigiKey_Part_Number" value="RT0805FRE0710KL"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="imu-mouse.kicad_sch"/>
+      <property name="ki_description" value="Resistor, small symbol"/>
+      <property name="ki_keywords" value="R resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0aa91c6b-8be4-4e81-a8eb-d6245b57f8e4</tstamps>
+    </comp>
+    <comp ref="R14">
+      <value>10kΩ</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <datasheet>https://www.yageo.com/upload/media/product/app/datasheet/rchip/pyu-rt_1-to-0.01_rohs_l.pdf</datasheet>
+      <fields>
+        <field name="DigiKey_Part_Number">RT0805FRE0710KL</field>
+        <field name="MANUFACTURER">YAGEO</field>
+        <field name="Price">0.09</field>
+        <field name="Purchase-URL">https://www.digikey.fi/en/products/detail/yageo/RT0805FRE0710KL/1078908</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="MANUFACTURER" value="YAGEO"/>
+      <property name="Price" value="0.09"/>
+      <property name="Purchase-URL" value="https://www.digikey.fi/en/products/detail/yageo/RT0805FRE0710KL/1078908"/>
+      <property name="DigiKey_Part_Number" value="RT0805FRE0710KL"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="imu-mouse.kicad_sch"/>
+      <property name="ki_description" value="Resistor, small symbol"/>
+      <property name="ki_keywords" value="R resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ba51856d-e1cc-461e-9ef3-0ac4af7eb58b</tstamps>
+    </comp>
+    <comp ref="R15">
+      <value>1.5MΩ</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <datasheet>https://www.yageo.com/upload/media/product/app/datasheet/rchip/pyu-rt_1-to-0.01_rohs_l.pdf</datasheet>
+      <fields>
+        <field name="DigiKey_Part_Number">RT0805FRE071M5L</field>
+        <field name="MANUFACTURER">YAGEO</field>
+        <field name="Price">0.10</field>
+        <field name="Purchase-URL">https://www.digikey.fi/en/products/detail/yageo/RT0805FRE071M5L/5934329</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="MANUFACTURER" value="YAGEO"/>
+      <property name="Price" value="0.10"/>
+      <property name="Purchase-URL" value="https://www.digikey.fi/en/products/detail/yageo/RT0805FRE071M5L/5934329"/>
+      <property name="DigiKey_Part_Number" value="RT0805FRE071M5L"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="imu-mouse.kicad_sch"/>
+      <property name="ki_description" value="Resistor, small symbol"/>
+      <property name="ki_keywords" value="R resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>27f4c111-870e-41da-aaed-84535af26e66</tstamps>
+    </comp>
+    <comp ref="R16">
+      <value>220kΩ</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <datasheet>https://www.yageo.com/upload/media/product/app/datasheet/rchip/pyu-rt_1-to-0.01_rohs_l.pdf</datasheet>
+      <fields>
+        <field name="DigiKey_Part_Number">RT0805FRE07220KL</field>
+        <field name="MANUFACTURER">YAGEO</field>
+        <field name="Price">0.09</field>
+        <field name="Purchase-URL">https://www.digikey.fi/en/products/detail/yageo/RT0805FRE07220KL/1079073</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="MANUFACTURER" value="YAGEO"/>
+      <property name="Price" value="0.09"/>
+      <property name="Purchase-URL" value="https://www.digikey.fi/en/products/detail/yageo/RT0805FRE07220KL/1079073"/>
+      <property name="DigiKey_Part_Number" value="RT0805FRE07220KL"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="imu-mouse.kicad_sch"/>
+      <property name="ki_description" value="Resistor, small symbol"/>
+      <property name="ki_keywords" value="R resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>10db9b94-cdff-4e81-9b28-83f68defc91b</tstamps>
+    </comp>
+    <comp ref="R17">
+      <value>1MΩ</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <datasheet>https://www.yageo.com/upload/media/product/products/datasheet/rchip/PYu-RC_Group_51_RoHS_L_12.pdf</datasheet>
+      <fields>
+        <field name="DigiKey_Part_Number">RC0805FR-071ML</field>
+        <field name="MANUFACTURER">YAGEO</field>
+        <field name="Price">0.09</field>
+        <field name="Purchase-URL">https://www.digikey.fi/en/products/detail/yageo/RC0805FR-071ML/727445</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="MANUFACTURER" value="YAGEO"/>
+      <property name="Price" value="0.09"/>
+      <property name="Purchase-URL" value="https://www.digikey.fi/en/products/detail/yageo/RC0805FR-071ML/727445"/>
+      <property name="DigiKey_Part_Number" value="RC0805FR-071ML"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="imu-mouse.kicad_sch"/>
+      <property name="ki_description" value="Resistor, small symbol"/>
+      <property name="ki_keywords" value="R resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>34c0de60-88d2-499d-aa65-443529a3a152</tstamps>
+    </comp>
+    <comp ref="R18">
+      <value>1MΩ</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <datasheet>https://www.yageo.com/upload/media/product/products/datasheet/rchip/PYu-RC_Group_51_RoHS_L_12.pdf</datasheet>
+      <fields>
+        <field name="DigiKey_Part_Number">RC0805FR-071ML</field>
+        <field name="MANUFACTURER">YAGEO</field>
+        <field name="Price">0.09</field>
+        <field name="Purchase-URL">https://www.digikey.fi/en/products/detail/yageo/RC0805FR-071ML/727445</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="MANUFACTURER" value="YAGEO"/>
+      <property name="Price" value="0.09"/>
+      <property name="Purchase-URL" value="https://www.digikey.fi/en/products/detail/yageo/RC0805FR-071ML/727445"/>
+      <property name="DigiKey_Part_Number" value="RC0805FR-071ML"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="imu-mouse.kicad_sch"/>
+      <property name="ki_description" value="Resistor, small symbol"/>
+      <property name="ki_keywords" value="R resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ec6e735c-502a-4bb0-8c41-07350d611783</tstamps>
+    </comp>
+    <comp ref="R19">
+      <value>10kΩ</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <datasheet>https://www.yageo.com/upload/media/product/app/datasheet/rchip/pyu-rt_1-to-0.01_rohs_l.pdf</datasheet>
+      <fields>
+        <field name="DigiKey_Part_Number">RT0805FRE0710KL</field>
+        <field name="MANUFACTURER">YAGEO</field>
+        <field name="Price">0.09</field>
+        <field name="Purchase-URL">https://www.digikey.fi/en/products/detail/yageo/RT0805FRE0710KL/1078908</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="MANUFACTURER" value="YAGEO"/>
+      <property name="Price" value="0.09"/>
+      <property name="Purchase-URL" value="https://www.digikey.fi/en/products/detail/yageo/RT0805FRE0710KL/1078908"/>
+      <property name="DigiKey_Part_Number" value="RT0805FRE0710KL"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="imu-mouse.kicad_sch"/>
+      <property name="ki_description" value="Resistor, small symbol"/>
+      <property name="ki_keywords" value="R resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3ae6c7c3-6ae2-45c2-8138-3f205da81af5</tstamps>
+    </comp>
+    <comp ref="R20">
+      <value>10kΩ</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <datasheet>https://www.yageo.com/upload/media/product/app/datasheet/rchip/pyu-rt_1-to-0.01_rohs_l.pdf</datasheet>
+      <fields>
+        <field name="DigiKey_Part_Number">RT0805FRE0710KL</field>
+        <field name="MANUFACTURER">YAGEO</field>
+        <field name="Price">0.09</field>
+        <field name="Purchase-URL">https://www.digikey.fi/en/products/detail/yageo/RT0805FRE0710KL/1078908</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="MANUFACTURER" value="YAGEO"/>
+      <property name="Price" value="0.09"/>
+      <property name="Purchase-URL" value="https://www.digikey.fi/en/products/detail/yageo/RT0805FRE0710KL/1078908"/>
+      <property name="DigiKey_Part_Number" value="RT0805FRE0710KL"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="imu-mouse.kicad_sch"/>
+      <property name="ki_description" value="Resistor, small symbol"/>
+      <property name="ki_keywords" value="R resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5147b74d-ee4c-4ca5-9358-4bc580a80572</tstamps>
+    </comp>
+    <comp ref="SW1">
+      <value>JS202011JAQN</value>
+      <footprint>JS202011JAQN (1):JS202011JAQN</footprint>
+      <datasheet>https://www.ckswitches.com/media/1422/js.pdf</datasheet>
+      <fields>
+        <field name="DigiKey_Part_Number">JS202011JAQN</field>
+        <field name="MANUFACTURER">C&amp;K</field>
+        <field name="Price">0.76</field>
+        <field name="Purchase-URL">https://www.digikey.fi/en/products/detail/c-k/JS202011JAQN/6137629</field>
+      </fields>
+      <libsource lib="2024-04-14_11-02-21" part="JS202011JAQN" description=""/>
+      <property name="MANUFACTURER" value="C&amp;K"/>
+      <property name="Price" value="0.76"/>
+      <property name="Purchase-URL" value="https://www.digikey.fi/en/products/detail/c-k/JS202011JAQN/6137629"/>
+      <property name="DigiKey_Part_Number" value="JS202011JAQN"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="imu-mouse.kicad_sch"/>
+      <property name="ki_keywords" value="JS202011JAQN"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d071af84-d5e9-46b0-b14b-36fda304155f</tstamps>
+    </comp>
+    <comp ref="SW2">
+      <value>PTS830GM140SMTRLFS</value>
+      <footprint>PTS830GM140 SMTR LFS:SWITCH_0SMTRLFS</footprint>
+      <datasheet>https://www.ckswitches.com/media/1478/pts830.pdf</datasheet>
+      <fields>
+        <field name="DigiKey_Part_Number">PTS830GM140-SMTR-LFS</field>
+        <field name="MANUFACTURER">C&amp;K</field>
+        <field name="Price">0.81</field>
+        <field name="Purchase-URL">https://www.digikey.fi/en/products/detail/c-k/PTS830GM140-SMTR-LFS/5722723</field>
+      </fields>
+      <libsource lib="PTS830GM140 SMTR LFS" part="PTS830GM140SMTRLFS" description=""/>
+      <property name="MANUFACTURER" value="C&amp;K"/>
+      <property name="Price" value="0.81"/>
+      <property name="Purchase-URL" value="https://www.digikey.fi/en/products/detail/c-k/PTS830GM140-SMTR-LFS/5722723"/>
+      <property name="DigiKey_Part_Number" value="PTS830GM140-SMTR-LFS"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="imu-mouse.kicad_sch"/>
+      <property name="ki_keywords" value="PTS830GM140SMTRLFS"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ac85c6a5-5566-465d-be58-f8f694a1078b</tstamps>
+    </comp>
+    <comp ref="SW3">
+      <value>Button1</value>
+      <footprint>Button_Switch_SMD:SW_SPST_PTS645</footprint>
+      <datasheet>https://www.ckswitches.com/media/1471/pts645.pdf</datasheet>
+      <fields>
+        <field name="DigiKey_Part_Number">PTS645SL43SMTR92-LFS</field>
+        <field name="MANUFACTURER">C&amp;K</field>
+        <field name="Price">0.17</field>
+        <field name="Purchase-URL">https://www.digikey.fi/en/products/detail/c-k/PTS645SL43SMTR92-LFS/3861373</field>
+      </fields>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <property name="Purchase-URL" value="https://www.digikey.fi/en/products/detail/c-k/PTS645SL43SMTR92-LFS/3861373"/>
+      <property name="MANUFACTURER" value="C&amp;K"/>
+      <property name="Price" value="0.17"/>
+      <property name="DigiKey_Part_Number" value="PTS645SL43SMTR92-LFS"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="imu-mouse.kicad_sch"/>
+      <property name="ki_description" value="Push button switch, generic, two pins"/>
+      <property name="ki_keywords" value="switch normally-open pushbutton push-button"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1c6dc6b7-33dd-4463-a03f-34b2455e7e04</tstamps>
+    </comp>
+    <comp ref="SW4">
+      <value>Button2</value>
+      <footprint>Button_Switch_SMD:SW_SPST_PTS645</footprint>
+      <datasheet>https://www.ckswitches.com/media/1471/pts645.pdf</datasheet>
+      <fields>
+        <field name="DigiKey_Part_Number">PTS645SL43SMTR92-LFS</field>
+        <field name="MANUFACTURER">C&amp;K</field>
+        <field name="Price">0.17</field>
+        <field name="Purchase-URL">https://www.digikey.fi/en/products/detail/c-k/PTS645SL43SMTR92-LFS/3861373</field>
+      </fields>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <property name="Purchase-URL" value="https://www.digikey.fi/en/products/detail/c-k/PTS645SL43SMTR92-LFS/3861373"/>
+      <property name="MANUFACTURER" value="C&amp;K"/>
+      <property name="Price" value="0.17"/>
+      <property name="DigiKey_Part_Number" value="PTS645SL43SMTR92-LFS"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="imu-mouse.kicad_sch"/>
+      <property name="ki_description" value="Push button switch, generic, two pins"/>
+      <property name="ki_keywords" value="switch normally-open pushbutton push-button"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>26c481fb-0a86-4291-83e3-6ba94cbed08f</tstamps>
+    </comp>
+    <comp ref="SW5">
+      <value>Button3</value>
+      <footprint>Button_Switch_SMD:SW_SPST_PTS645</footprint>
+      <datasheet>https://www.ckswitches.com/media/1471/pts645.pdf</datasheet>
+      <fields>
+        <field name="DigiKey_Part_Number">PTS645SL43SMTR92-LFS</field>
+        <field name="MANUFACTURER">C&amp;K</field>
+        <field name="Price">0.17</field>
+        <field name="Purchase-URL">https://www.digikey.fi/en/products/detail/c-k/PTS645SL43SMTR92-LFS/3861373</field>
+      </fields>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <property name="Purchase-URL" value="https://www.digikey.fi/en/products/detail/c-k/PTS645SL43SMTR92-LFS/3861373"/>
+      <property name="MANUFACTURER" value="C&amp;K"/>
+      <property name="Price" value="0.17"/>
+      <property name="DigiKey_Part_Number" value="PTS645SL43SMTR92-LFS"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="imu-mouse.kicad_sch"/>
+      <property name="ki_description" value="Push button switch, generic, two pins"/>
+      <property name="ki_keywords" value="switch normally-open pushbutton push-button"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b2dc33c5-e612-42d1-bdf3-00fad8fc0cca</tstamps>
+    </comp>
+    <comp ref="TP1">
+      <value>BAT+</value>
+      <footprint>TestPoint:TestPoint_Pad_D1.0mm</footprint>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="imu-mouse.kicad_sch"/>
+      <property name="ki_description" value="test point"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>005e3d73-176b-4c6d-80d1-1ce670e299cf</tstamps>
+    </comp>
+    <comp ref="TP2">
+      <value>BAT-</value>
+      <footprint>TestPoint:TestPoint_Pad_D1.0mm</footprint>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="imu-mouse.kicad_sch"/>
+      <property name="ki_description" value="test point"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d69948e1-f125-463d-b55d-184fe97c9795</tstamps>
+    </comp>
+    <comp ref="TP3">
+      <value>VBUS</value>
+      <footprint>TestPoint:TestPoint_Pad_D1.0mm</footprint>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="imu-mouse.kicad_sch"/>
+      <property name="ki_description" value="test point"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a0877b25-58fd-4c28-b6f3-afadf3333db0</tstamps>
+    </comp>
+    <comp ref="TP4">
+      <value>VSYS</value>
+      <footprint>TestPoint:TestPoint_Pad_D1.0mm</footprint>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="imu-mouse.kicad_sch"/>
+      <property name="ki_description" value="test point"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>db65c7c5-9408-4488-8372-8abbb0e95c11</tstamps>
+    </comp>
+    <comp ref="TP5">
+      <value>VDD_1.8</value>
+      <footprint>TestPoint:TestPoint_Pad_D1.0mm</footprint>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="imu-mouse.kicad_sch"/>
+      <property name="ki_description" value="test point"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2a1dc77c-9217-4947-abed-523b245b8fc6</tstamps>
+    </comp>
+    <comp ref="TP6">
+      <value>VDD_1.8V</value>
+      <footprint>TestPoint:TestPoint_Pad_D1.0mm</footprint>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="imu-mouse.kicad_sch"/>
+      <property name="ki_description" value="test point"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5caa6566-9349-4c76-9043-bf666f54a69c</tstamps>
+    </comp>
+    <comp ref="TP7">
+      <value>BHI360_INT</value>
+      <footprint>TestPoint:TestPoint_Pad_D1.0mm</footprint>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="imu-mouse.kicad_sch"/>
+      <property name="ki_description" value="test point"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>633ea6f3-b15e-41c6-a47f-aee29f0ddcc6</tstamps>
+    </comp>
+    <comp ref="TP8">
+      <value>BHI360_CS</value>
+      <footprint>TestPoint:TestPoint_Pad_D1.0mm</footprint>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="imu-mouse.kicad_sch"/>
+      <property name="ki_description" value="test point"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>870e034b-a4ea-42cd-ab4d-bfea53536421</tstamps>
+    </comp>
+    <comp ref="TP9">
+      <value>BHI360_MISO</value>
+      <footprint>TestPoint:TestPoint_Pad_D1.0mm</footprint>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="imu-mouse.kicad_sch"/>
+      <property name="ki_description" value="test point"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9b415a64-6070-435d-8cc8-d51257cdaaf8</tstamps>
+    </comp>
+    <comp ref="TP10">
+      <value>BHI360_MOSI</value>
+      <footprint>TestPoint:TestPoint_Pad_D1.0mm</footprint>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="imu-mouse.kicad_sch"/>
+      <property name="ki_description" value="test point"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1bdf39a8-a8c6-45d6-bdbe-a6c40f0fb421</tstamps>
+    </comp>
+    <comp ref="TP11">
+      <value>BHI360_CLK</value>
+      <footprint>TestPoint:TestPoint_Pad_D1.0mm</footprint>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="imu-mouse.kicad_sch"/>
+      <property name="ki_description" value="test point"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a38e1176-2ca2-4560-967c-1e7b900f189a</tstamps>
+    </comp>
+    <comp ref="TP12">
+      <value>BMA456_MISO</value>
+      <footprint>TestPoint:TestPoint_Pad_D1.0mm</footprint>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="imu-mouse.kicad_sch"/>
+      <property name="ki_description" value="test point"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>929d48c7-4029-4d8a-a0f2-3be6d903a517</tstamps>
+    </comp>
+    <comp ref="TP13">
+      <value>BMA456_MOSI</value>
+      <footprint>TestPoint:TestPoint_Pad_D1.0mm</footprint>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="imu-mouse.kicad_sch"/>
+      <property name="ki_description" value="test point"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>eb33cc82-6638-4416-ab50-c9b90aee1fda</tstamps>
+    </comp>
+    <comp ref="TP14">
+      <value>BMA456_CLK</value>
+      <footprint>TestPoint:TestPoint_Pad_D1.0mm</footprint>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="imu-mouse.kicad_sch"/>
+      <property name="ki_description" value="test point"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d23ceb78-59f6-448d-bf47-f82d93fc2f7e</tstamps>
+    </comp>
+    <comp ref="TP15">
+      <value>BMA456_CS</value>
+      <footprint>TestPoint:TestPoint_Pad_D1.0mm</footprint>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="imu-mouse.kicad_sch"/>
+      <property name="ki_description" value="test point"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e7567beb-8726-4861-9ac9-1a08b089c8b7</tstamps>
+    </comp>
+    <comp ref="TP16">
+      <value>BMM350_SCK</value>
+      <footprint>TestPoint:TestPoint_Pad_D1.0mm</footprint>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="imu-mouse.kicad_sch"/>
+      <property name="ki_description" value="test point"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>55069446-403f-4c33-b275-a7a7d470cf39</tstamps>
+    </comp>
+    <comp ref="TP17">
+      <value>BMM350_SDA</value>
+      <footprint>TestPoint:TestPoint_Pad_D1.0mm</footprint>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="imu-mouse.kicad_sch"/>
+      <property name="ki_description" value="test point"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>15d4d908-dc81-411f-b2c4-823fc3f5339f</tstamps>
+    </comp>
+    <comp ref="TP18">
+      <value>VDD_LP_SENS</value>
+      <footprint>TestPoint:TestPoint_Pad_D1.0mm</footprint>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="imu-mouse.kicad_sch"/>
+      <property name="ki_description" value="test point"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f0069c96-47c0-4540-95e0-57d040bbf3e6</tstamps>
+    </comp>
+    <comp ref="TP19">
+      <value>BMA456_INT</value>
+      <footprint>TestPoint:TestPoint_Pad_D1.0mm</footprint>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="imu-mouse.kicad_sch"/>
+      <property name="ki_description" value="test point"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7a6a4efe-7e8c-4acd-869a-f7e767b3dbf9</tstamps>
+    </comp>
+    <comp ref="U1">
+      <value>FDV303N</value>
+      <footprint>FDV303N:SOT-23-3L_FAS</footprint>
+      <datasheet>https://www.onsemi.com/pdf/datasheet/fdv303n-d.pdf</datasheet>
+      <fields>
+        <field name="DigiKey_Part_Number">FDV303N</field>
+        <field name="MANUFACTURER">onsemi</field>
+        <field name="Price">0.37</field>
+        <field name="Purchase-URL">https://www.digikey.fi/en/products/detail/onsemi/FDV303N/458853</field>
+      </fields>
+      <libsource lib="2024-04-05_17-40-27" part="FDV303N" description=""/>
+      <property name="MANUFACTURER" value="onsemi"/>
+      <property name="Price" value="0.37"/>
+      <property name="Purchase-URL" value="https://www.digikey.fi/en/products/detail/onsemi/FDV303N/458853"/>
+      <property name="DigiKey_Part_Number" value="FDV303N"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="imu-mouse.kicad_sch"/>
+      <property name="ki_keywords" value="FDV303N"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>92d4f444-804f-4816-9130-2378c28b5b8f</tstamps>
+    </comp>
+    <comp ref="U2">
+      <value>FDV303N</value>
+      <footprint>FDV303N:SOT-23-3L_FAS</footprint>
+      <datasheet>https://www.onsemi.com/pdf/datasheet/fdv303n-d.pdf</datasheet>
+      <fields>
+        <field name="DigiKey_Part_Number">FDV303N</field>
+        <field name="MANUFACTURER">onsemi</field>
+        <field name="Price">0.37</field>
+        <field name="Purchase-URL">https://www.digikey.fi/en/products/detail/onsemi/FDV303N/458853</field>
+      </fields>
+      <libsource lib="2024-04-05_17-40-27" part="FDV303N" description=""/>
+      <property name="MANUFACTURER" value="onsemi"/>
+      <property name="Price" value="0.37"/>
+      <property name="Purchase-URL" value="https://www.digikey.fi/en/products/detail/onsemi/FDV303N/458853"/>
+      <property name="DigiKey_Part_Number" value="FDV303N"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="imu-mouse.kicad_sch"/>
+      <property name="ki_keywords" value="FDV303N"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0fe93895-209b-4762-8714-b37af805dee8</tstamps>
+    </comp>
+    <comp ref="U3">
+      <value>FDV303N</value>
+      <footprint>FDV303N:SOT-23-3L_FAS</footprint>
+      <datasheet>https://www.onsemi.com/pdf/datasheet/fdv303n-d.pdf</datasheet>
+      <fields>
+        <field name="DigiKey_Part_Number">FDV303N</field>
+        <field name="MANUFACTURER">onsemi</field>
+        <field name="Price">0.37</field>
+        <field name="Purchase-URL">https://www.digikey.fi/en/products/detail/onsemi/FDV303N/458853</field>
+      </fields>
+      <libsource lib="2024-04-05_17-40-27" part="FDV303N" description=""/>
+      <property name="MANUFACTURER" value="onsemi"/>
+      <property name="Price" value="0.37"/>
+      <property name="Purchase-URL" value="https://www.digikey.fi/en/products/detail/onsemi/FDV303N/458853"/>
+      <property name="DigiKey_Part_Number" value="FDV303N"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="imu-mouse.kicad_sch"/>
+      <property name="ki_keywords" value="FDV303N"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>43feef4f-efd2-43ed-8e9d-9f194921236c</tstamps>
+    </comp>
+    <comp ref="U4">
+      <value>NPM1100-CAAA-R7</value>
+      <footprint>NPM1100-CAAA-R7:BGA25C40P5X5_207X207X52N</footprint>
+      <datasheet>https://infocenter.nordicsemi.com/pdf/nPM1100_PS_v1.2.pdf</datasheet>
+      <fields>
+        <field name="DigiKey_Part_Number">npm1100-caab-r</field>
+        <field name="MANUFACTURER">Nordic Semiconductor SA</field>
+        <field name="Package">None</field>
+        <field name="Price">2.20</field>
+        <field name="Purchase-URL">https://www.digikey.fi/en/products/detail/nordic-semiconductor-asa/npm1100-caab-r/18069436</field>
+      </fields>
+      <libsource lib="NPM1100-CAAA-R7" part="NPM1100-CAAA-R7" description=""/>
+      <property name="Package" value="None"/>
+      <property name="Price" value="2.20"/>
+      <property name="MANUFACTURER" value="Nordic Semiconductor SA"/>
+      <property name="Purchase-URL" value="https://www.digikey.fi/en/products/detail/nordic-semiconductor-asa/npm1100-caab-r/18069436"/>
+      <property name="DigiKey_Part_Number" value="npm1100-caab-r"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="imu-mouse.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>712199d0-48f1-4f92-b06a-55b2f739d068</tstamps>
+    </comp>
+    <comp ref="U5">
+      <value>ANNA-B112-70B</value>
+      <footprint>ANNA_B112_70B:XCVR_ANNA-B112-70B</footprint>
+      <datasheet>https://content.u-blox.com/sites/default/files/ANNA-B112_DataSheet_UBX-18011707.pdf</datasheet>
+      <fields>
+        <field name="DigiKey_Part_Number">anna-b112-70b</field>
+        <field name="MANUFACTURER">u-blox</field>
+        <field name="Price">9.20</field>
+        <field name="Purchase-URL">https://www.digikey.fi/en/products/detail/u-blox/anna-b112-70b/13877614</field>
+      </fields>
+      <libsource lib="ANNA-B112" part="ANNA-B112-70B" description=""/>
+      <property name="MANUFACTURER" value="u-blox"/>
+      <property name="Purchase-URL" value="https://www.digikey.fi/en/products/detail/u-blox/anna-b112-70b/13877614"/>
+      <property name="Price" value="9.20"/>
+      <property name="DigiKey_Part_Number" value="anna-b112-70b"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="imu-mouse.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>985d4e62-7ace-4a5d-84da-a3dd9d25b03f</tstamps>
+    </comp>
+    <comp ref="U6">
+      <value>BHI360</value>
+      <footprint>BHI360:XDCR_BHI360</footprint>
+      <datasheet>https://www.bosch-sensortec.com/media/boschsensortec/downloads/datasheets/bst-bhi360-ds000.pdf</datasheet>
+      <fields>
+        <field name="DigiKey_Part_Number">bhi360</field>
+        <field name="MANUFACTURER">Bosch Sensortec</field>
+        <field name="Price">6.04</field>
+        <field name="Purchase-URL">https://www.digikey.fi/en/products/detail/bosch-sensortec/bhi360/19522587</field>
+      </fields>
+      <libsource lib="BHI360" part="BHI360" description=""/>
+      <property name="MANUFACTURER" value="Bosch Sensortec"/>
+      <property name="Purchase-URL" value="https://www.digikey.fi/en/products/detail/bosch-sensortec/bhi360/19522587"/>
+      <property name="Price" value="6.04"/>
+      <property name="DigiKey_Part_Number" value="bhi360"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="imu-mouse.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>046ee366-bc14-4a71-83c0-aada09017dd1</tstamps>
+    </comp>
+    <comp ref="U7">
+      <value>BMA456</value>
+      <footprint>BMA456:XDCR_BMA456</footprint>
+      <datasheet>https://www.bosch-sensortec.com/media/boschsensortec/downloads/datasheets/bst-bma456-ds000.pdf</datasheet>
+      <fields>
+        <field name="DigiKey_Part_Number">bma456</field>
+        <field name="MANUFACTURER">Bosch Sensortec</field>
+        <field name="Price">2.39</field>
+        <field name="Purchase-URL">https://www.digikey.fi/en/products/detail/bosch-sensortec/bma456/7401315</field>
+      </fields>
+      <libsource lib="BMA456" part="BMA456" description=""/>
+      <property name="MANUFACTURER" value="Bosch Sensortec"/>
+      <property name="Purchase-URL" value="https://www.digikey.fi/en/products/detail/bosch-sensortec/bma456/7401315"/>
+      <property name="Price" value="2.39"/>
+      <property name="DigiKey_Part_Number" value="bma456"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="imu-mouse.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>bf5436f6-cb2d-44ec-b727-4c2ca30db206</tstamps>
+    </comp>
+    <comp ref="U8">
+      <value>BMM350</value>
+      <footprint>BMM350:BGA9C40P3X3_128X128X50</footprint>
+      <datasheet>https://www.bosch-sensortec.com/media/boschsensortec/downloads/datasheets/bst-bmm350-ds001.pdf</datasheet>
+      <fields>
+        <field name="DigiKey_Part_Number">BMM350</field>
+        <field name="MANUFACTURER">Bosch Sensortec</field>
+        <field name="Package">None</field>
+        <field name="Price">2.43</field>
+        <field name="Purchase-URL">https://www.digikey.fi/en/products/detail/bosch-sensortec/BMM350/17827576</field>
+      </fields>
+      <libsource lib="BMM350" part="BMM350" description=""/>
+      <property name="Package" value="None"/>
+      <property name="Price" value="2.43"/>
+      <property name="Purchase-URL" value="https://www.digikey.fi/en/products/detail/bosch-sensortec/BMM350/17827576"/>
+      <property name="MANUFACTURER" value="Bosch Sensortec"/>
+      <property name="DigiKey_Part_Number" value="BMM350"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="imu-mouse.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>21e800ff-52b6-41f5-be7c-b7d21ef16bc9</tstamps>
+    </comp>
+    <comp ref="U9">
+      <value>TPS7A0533PDBV</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23-5</footprint>
+      <datasheet>https://www.ti.com/lit/ds/symlink/tps7a05.pdf</datasheet>
+      <fields>
+        <field name="DigiKey_Part_Number">TPS7A0533PDBVR</field>
+        <field name="MANUFACTURER">Texas Instruments</field>
+        <field name="Price">0.66</field>
+        <field name="Purchase-URL">https://www.digikey.fi/fi/products/detail/texas-instruments/TPS7A0533PDBVR/9489226</field>
+      </fields>
+      <libsource lib="Regulator_Linear" part="TPS7A0533PDBV" description="200-mA Ultra-Low-Iq LDO, 3.3V, SOT-23-5"/>
+      <property name="MANUFACTURER" value="Texas Instruments"/>
+      <property name="Price" value="0.66"/>
+      <property name="Purchase-URL" value="https://www.digikey.fi/fi/products/detail/texas-instruments/TPS7A0533PDBVR/9489226"/>
+      <property name="DigiKey_Part_Number" value="TPS7A0533PDBVR"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="imu-mouse.kicad_sch"/>
+      <property name="ki_description" value="200-mA Ultra-Low-Iq LDO, 3.3V, SOT-23-5"/>
+      <property name="ki_keywords" value="Single Output LDO Low-Iq"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a0a34571-77a4-4554-b18f-5df56e7557d2</tstamps>
+    </comp>
+    <comp ref="Y1">
+      <value>32.768kHz</value>
+      <footprint>Crystal:Crystal_SMD_2012-2Pin_2.0x1.2mm</footprint>
+      <datasheet>https://support.epson.biz/td/api/doc_check.php?dl=brief_FC-12M&amp;lang=en</datasheet>
+      <fields>
+        <field name="DigiKey_Part_Number">FC-12M-32-7680KD-A0</field>
+        <field name="MANUFACTURER">EPSON</field>
+        <field name="Price">0.61</field>
+        <field name="Purchase-URL">https://www.digikey.fi/en/products/detail/epson/FC-12M-32-7680KD-A0/5259894</field>
+      </fields>
+      <libsource lib="Device" part="Crystal_Small" description="Two pin crystal, small symbol"/>
+      <property name="MANUFACTURER" value="EPSON"/>
+      <property name="Purchase-URL" value="https://www.digikey.fi/en/products/detail/epson/FC-12M-32-7680KD-A0/5259894"/>
+      <property name="Price" value="0.61"/>
+      <property name="DigiKey_Part_Number" value="FC-12M-32-7680KD-A0"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="imu-mouse.kicad_sch"/>
+      <property name="ki_description" value="Two pin crystal, small symbol"/>
+      <property name="ki_keywords" value="quartz ceramic resonator oscillator"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ce1d150d-2e31-4e4e-bdf8-230104725fd7</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="2024-04-05_17-40-27" part="FDV303N">
+      <docs>FDV303N</docs>
+      <footprints>
+        <fp>SOT-23-3L_FAS</fp>
+        <fp>SOT-23-3L_FAS-M</fp>
+        <fp>SOT-23-3L_FAS-L</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U8</field>
+        <field name="Value">FDV303N</field>
+        <field name="Footprint">SOT-23-3L_FAS</field>
+        <field name="Datasheet">FDV303N</field>
+      </fields>
+      <pins>
+        <pin num="1" name="G" type="unspecified"/>
+        <pin num="2" name="S" type="unspecified"/>
+        <pin num="3" name="D" type="unspecified"/>
+      </pins>
+    </libpart>
+    <libpart lib="2024-04-14_11-02-21" part="JS202011JAQN">
+      <docs>JS202011JAQN</docs>
+      <footprints>
+        <fp>JS202011JAQN_CNK</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">JS202011JAQN</field>
+        <field name="Footprint">JS202011JAQN_CNK</field>
+        <field name="Datasheet">JS202011JAQN</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="unspecified"/>
+        <pin num="2" name="2" type="unspecified"/>
+        <pin num="3" name="3" type="unspecified"/>
+        <pin num="5" name="5" type="unspecified"/>
+        <pin num="6" name="6" type="unspecified"/>
+        <pin num="7" name="7" type="unspecified"/>
+      </pins>
+    </libpart>
+    <libpart lib="2024-04-16_05-36-31" part="SMLP34RGBN1W3">
+      <docs>SMLP34RGBN1W3</docs>
+      <footprints>
+        <fp>SMLP34_ROM</fp>
+        <fp>SMLP34_ROM-M</fp>
+        <fp>SMLP34_ROM-L</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">LED</field>
+        <field name="Value">SMLP34RGBN1W3</field>
+        <field name="Footprint">SMLP34_ROM</field>
+        <field name="Datasheet">SMLP34RGBN1W3</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="unspecified"/>
+        <pin num="2" name="2" type="unspecified"/>
+        <pin num="3" name="3" type="unspecified"/>
+        <pin num="4" name="4" type="unspecified"/>
+      </pins>
+    </libpart>
+    <libpart lib="ANNA-B112" part="ANNA-B112-70B">
+      <docs>https://content.u-blox.com/sites/default/files/ANNA-B112_DataSheet_UBX-18011707.pdf</docs>
+      <fields>
+        <field name="Reference">U2</field>
+        <field name="Value">ANNA-B112-70B</field>
+        <field name="Footprint">ANNA_B112_70B:XCVR_ANNA-B112-70B</field>
+        <field name="Datasheet">https://content.u-blox.com/sites/default/files/ANNA-B112_DataSheet_UBX-18011707.pdf</field>
+        <field name="Purchase-URL">https://www.digikey.fi/en/products/detail/u-blox/anna-b112-70b/13877614</field>
+        <field name="MANUFACTURER">u-blox</field>
+        <field name="Price">9.20</field>
+      </fields>
+      <pins>
+        <pin num="1" name="ANT_PCB" type="passive"/>
+        <pin num="2" name="ANT_GND1" type="power_in"/>
+        <pin num="3" name="ANT_GND2" type="power_in"/>
+        <pin num="4" name="GND" type="power_in"/>
+        <pin num="5" name="ANT_INT" type="bidirectional"/>
+        <pin num="6" name="ANT" type="bidirectional"/>
+        <pin num="7" name="GND__1" type="power_in"/>
+        <pin num="8" name="GND__2" type="power_in"/>
+        <pin num="9" name="VCC" type="power_in"/>
+        <pin num="10" name="GND__3" type="power_in"/>
+        <pin num="11" name="GND__4" type="power_in"/>
+        <pin num="12" name="~{RESET}" type="input"/>
+        <pin num="13" name="GPIO_13" type="bidirectional"/>
+        <pin num="14" name="GPIO_14" type="bidirectional"/>
+        <pin num="15" name="GPIO_15" type="bidirectional"/>
+        <pin num="16" name="SWO/GPIO_16" type="bidirectional"/>
+        <pin num="17" name="XL1/GPIO_17" type="bidirectional"/>
+        <pin num="18" name="XL2/GPIO_18" type="bidirectional"/>
+        <pin num="19" name="GPIO_19" type="bidirectional"/>
+        <pin num="20" name="GPIO_20" type="bidirectional"/>
+        <pin num="21" name="NFC1/GPIO_21" type="bidirectional"/>
+        <pin num="22" name="NFC2/GPIO_22" type="bidirectional"/>
+        <pin num="23" name="GPIO_23" type="bidirectional"/>
+        <pin num="24" name="GPIO_24" type="bidirectional"/>
+        <pin num="25" name="GPIO_25" type="bidirectional"/>
+        <pin num="26" name="GPIO_26" type="bidirectional"/>
+        <pin num="27" name="GPIO_27" type="bidirectional"/>
+        <pin num="28" name="GPIO_28" type="bidirectional"/>
+        <pin num="29" name="GPIO_29" type="bidirectional"/>
+        <pin num="30" name="GPIO_30" type="bidirectional"/>
+        <pin num="31" name="GPIO_31" type="bidirectional"/>
+        <pin num="32" name="GND__5" type="power_in"/>
+        <pin num="33" name="GND__6" type="power_in"/>
+        <pin num="34" name="GPIO_34" type="bidirectional"/>
+        <pin num="35" name="GPIO_35" type="bidirectional"/>
+        <pin num="36" name="GPIO_36" type="bidirectional"/>
+        <pin num="37" name="GPIO_37" type="bidirectional"/>
+        <pin num="38" name="GPIO_38" type="bidirectional"/>
+        <pin num="39" name="SWDCLK" type="input"/>
+        <pin num="40" name="SWDIO" type="bidirectional"/>
+        <pin num="41" name="GND__7" type="power_in"/>
+        <pin num="42" name="GND__8" type="power_in"/>
+        <pin num="43" name="GND__9" type="power_in"/>
+        <pin num="44" name="GND__10" type="power_in"/>
+        <pin num="45" name="GPIO_45" type="bidirectional"/>
+        <pin num="46" name="GND__11" type="power_in"/>
+        <pin num="47" name="GND__12" type="power_in"/>
+        <pin num="48" name="GND__13" type="power_in"/>
+        <pin num="49" name="EGP" type="power_in"/>
+        <pin num="50" name="EGP__1" type="power_in"/>
+        <pin num="51" name="EGP__2" type="power_in"/>
+        <pin num="52" name="EGP__3" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="BHI360" part="BHI360">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">BHI360</field>
+        <field name="Footprint">BHI360:XDCR_BHI360</field>
+        <field name="PARTREV">1.0</field>
+        <field name="STANDARD">Manufacturer Recommendations</field>
+        <field name="MAXIMUM_PACKAGE_HEIGHT">1.00mm</field>
+        <field name="MANUFACTURER">Bosch Sensortec</field>
+      </fields>
+      <pins>
+        <pin num="1" name="HSDO" type="bidirectional"/>
+        <pin num="2" name="ASDX" type="bidirectional"/>
+        <pin num="3" name="ASCX" type="input"/>
+        <pin num="4" name="HIRQ" type="input"/>
+        <pin num="5" name="VDDIO" type="power_in"/>
+        <pin num="6" name="GNDIO" type="power_in"/>
+        <pin num="7" name="GND" type="power_in"/>
+        <pin num="8" name="VDD" type="power_in"/>
+        <pin num="9" name="VREG" type="power_in"/>
+        <pin num="10" name="OCSB" type="input"/>
+        <pin num="11" name="OSDO" type="bidirectional"/>
+        <pin num="12" name="HCSB" type="input"/>
+        <pin num="13" name="HSCX" type="input"/>
+        <pin num="14" name="HSDX" type="bidirectional"/>
+        <pin num="15" name="M3SCL" type="input"/>
+        <pin num="16" name="JTSG_DIO" type="input"/>
+        <pin num="17" name="~{RESET}" type="input"/>
+        <pin num="18" name="M3SDA" type="bidirectional"/>
+        <pin num="19" name="RESV2" type="no_connect"/>
+        <pin num="20" name="RESV1" type="no_connect"/>
+      </pins>
+    </libpart>
+    <libpart lib="BMA456" part="BMA456">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">BMA456</field>
+        <field name="Footprint">BMA456:XDCR_BMA456</field>
+        <field name="PARTREV">2.0</field>
+        <field name="STANDARD">Manufacturer Recommendation</field>
+        <field name="MAXIMUM_PACKAGE_HEIGHT">0.70 mm</field>
+        <field name="MANUFACTURER">Bosch</field>
+      </fields>
+      <pins>
+        <pin num="1" name="SDO" type="bidirectional"/>
+        <pin num="2" name="SDX" type="bidirectional"/>
+        <pin num="3" name="VDDIO" type="power_in"/>
+        <pin num="4" name="ASDA" type="bidirectional"/>
+        <pin num="5" name="INT1" type="bidirectional"/>
+        <pin num="6" name="INT2" type="bidirectional"/>
+        <pin num="7" name="VDD" type="power_in"/>
+        <pin num="8" name="GNDIO" type="power_in"/>
+        <pin num="9" name="GND" type="power_in"/>
+        <pin num="10" name="~{CS}" type="input"/>
+        <pin num="11" name="ASCL" type="output"/>
+        <pin num="12" name="SCX" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="BMM350" part="BMM350">
+      <docs>https://www.bosch-sensortec.com/media/boschsensortec/downloads/datasheets/bst-bmm350-ds001.pdf</docs>
+      <fields>
+        <field name="Reference">U7</field>
+        <field name="Value">BMM350</field>
+        <field name="Footprint">BMM350:BGA9C40P3X3_128X128X50</field>
+        <field name="Datasheet">https://www.bosch-sensortec.com/media/boschsensortec/downloads/datasheets/bst-bmm350-ds001.pdf</field>
+        <field name="Price">2.43</field>
+        <field name="Package">None</field>
+        <field name="Purchase-URL">https://www.digikey.fi/en/products/detail/bosch-sensortec/BMM350/17827576</field>
+        <field name="MANUFACTURER">Bosch Sensortec</field>
+      </fields>
+      <pins>
+        <pin num="A1" name="INT" type="bidirectional"/>
+        <pin num="A2" name="SDA" type="bidirectional"/>
+        <pin num="A3" name="SCK" type="bidirectional"/>
+        <pin num="B1" name="GND" type="bidirectional"/>
+        <pin num="B2" name="ADSEL" type="bidirectional"/>
+        <pin num="B3" name="VDDIO" type="bidirectional"/>
+        <pin num="C1" name="VDD" type="bidirectional"/>
+        <pin num="C2" name="CRST" type="bidirectional"/>
+        <pin num="C3" name="BYPASS" type="bidirectional"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Conn_01x01_Pin">
+      <description>Generic connector, single row, 01x01, script generated</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x01_Pin</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Conn_ARM_JTAG_SWD_10">
+      <description>Cortex Debug Connector, standard ARM Cortex-M SWD and JTAG interface</description>
+      <docs>http://infocenter.arm.com/help/topic/com.arm.doc.ddi0314h/DDI0314H_coresight_components_trm.pdf</docs>
+      <footprints>
+        <fp>PinHeader?2x05?P1.27mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_ARM_JTAG_SWD_10</field>
+        <field name="Datasheet">http://infocenter.arm.com/help/topic/com.arm.doc.ddi0314h/DDI0314H_coresight_components_trm.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VTref" type="power_in"/>
+        <pin num="2" name="SWDIO/TMS" type="bidirectional"/>
+        <pin num="3" name="GND" type="power_in"/>
+        <pin num="4" name="SWCLK/TCK" type="output"/>
+        <pin num="5" name="GND" type="passive"/>
+        <pin num="6" name="SWO/TDO" type="input"/>
+        <pin num="7" name="KEY" type="no_connect"/>
+        <pin num="8" name="NC/TDI" type="output"/>
+        <pin num="9" name="GNDDetect" type="passive"/>
+        <pin num="10" name="~{RESET}" type="open_collector"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="TestPoint">
+      <description>test point</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Pin*</fp>
+        <fp>Test*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">TP</field>
+        <field name="Value">TestPoint</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="USB_C_Receptacle_PowerOnly_6P">
+      <description>USB Power-Only 6P Type-C Receptacle connector</description>
+      <docs>https://www.usb.org/sites/default/files/documents/usb_type-c.zip</docs>
+      <footprints>
+        <fp>USB*C*Receptacle*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">USB_C_Receptacle_PowerOnly_6P</field>
+        <field name="Datasheet">https://www.usb.org/sites/default/files/documents/usb_type-c.zip</field>
+      </fields>
+      <pins>
+        <pin num="A5" name="CC1" type="bidirectional"/>
+        <pin num="A9" name="VBUS" type="passive"/>
+        <pin num="A12" name="GND" type="passive"/>
+        <pin num="B5" name="CC2" type="bidirectional"/>
+        <pin num="B9" name="VBUS" type="passive"/>
+        <pin num="B12" name="GND" type="passive"/>
+        <pin num="S1" name="SHIELD" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="DMC2400UV" part="DMC2400UV">
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">DMC2400UV</field>
+        <field name="Footprint">DMC2400UV:SOT563</field>
+        <field name="SnapEDA_Link">https://www.snapeda.com/parts/DMC2400UV/Zetex/view-part/?ref=snap</field>
+        <field name="Description">
+Trans MOSFET N/P-CH 20V 1.030A/0.7A 6-Pin SOT-563 T/R
+</field>
+        <field name="MF">Diodes Zetex</field>
+        <field name="Package">None</field>
+        <field name="Check_prices">https://www.snapeda.com/parts/DMC2400UV/Zetex/view-part/?ref=eda</field>
+        <field name="MP">DMC2400UV</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+        <pin num="3" name="" type="passive"/>
+        <pin num="4" name="" type="passive"/>
+        <pin num="5" name="" type="passive"/>
+        <pin num="6" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C_Small">
+      <description>Unpolarized capacitor, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_Small</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="Crystal_Small">
+      <description>Two pin crystal, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Crystal*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Y</field>
+        <field name="Value">Crystal_Small</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="LED_Small">
+      <description>Light emitting diode, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>LED*</fp>
+        <fp>LED_SMD:*</fp>
+        <fp>LED_THT:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED_Small</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="L_Small">
+      <description>Inductor, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Choke_*</fp>
+        <fp>*Coil*</fp>
+        <fp>Inductor_*</fp>
+        <fp>L_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">L</field>
+        <field name="Value">L_Small</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R_Small">
+      <description>Resistor, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R_Small</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Mechanical" part="MountingHole_Pad">
+      <description>Mounting Hole with connection</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>MountingHole*Pad*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">H</field>
+        <field name="Value">MountingHole_Pad</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="NPM1100-CAAA-R7" part="NPM1100-CAAA-R7">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">NPM1100-CAAA-R7</field>
+        <field name="Footprint">NPM1100-CAAA-R7:BGA25C40P5X5_207X207X52N</field>
+        <field name="MF">Nordic Semiconductor ASA</field>
+        <field name="MAXIMUM_PACKAGE_HEIGHT">0.522mm</field>
+        <field name="Package">None</field>
+        <field name="Price">None</field>
+        <field name="Check_prices">https://www.snapeda.com/parts/NPM1100-CAAA-R7/Nordic+Semiconductor+ASA/view-part/?ref=eda</field>
+        <field name="STANDARD">IPC 7351B</field>
+        <field name="PARTREV">V1.0</field>
+        <field name="SnapEDA_Link">https://www.snapeda.com/parts/NPM1100-CAAA-R7/Nordic+Semiconductor+ASA/view-part/?ref=snap</field>
+        <field name="MP">NPM1100-CAAA-R7</field>
+        <field name="Description">
+Battery Power Management IC Lithium Ion/Polymer 25-WLCSP (2.08x2.08)
+</field>
+        <field name="Availability">In Stock</field>
+        <field name="MANUFACTURER">Nordic Semiconductor SA</field>
+      </fields>
+      <pins>
+        <pin num="A1" name="D-" type="input"/>
+        <pin num="A2" name="D+" type="input"/>
+        <pin num="A3" name="DEC" type="power_in"/>
+        <pin num="A4" name="SW" type="power_in"/>
+        <pin num="A5" name="PVSS" type="power_in"/>
+        <pin num="B1" name="VBUS" type="power_in"/>
+        <pin num="B2" name="VBUS" type="power_in"/>
+        <pin num="B3" name="VOUTBSET1" type="bidirectional"/>
+        <pin num="B4" name="VOUTBSET0" type="bidirectional"/>
+        <pin num="B5" name="VOUTB" type="power_in"/>
+        <pin num="C1" name="VSYS" type="power_in"/>
+        <pin num="C2" name="VSYS" type="power_in"/>
+        <pin num="C3" name="VTERMSET" type="bidirectional"/>
+        <pin num="C4" name="AVSS" type="power_in"/>
+        <pin num="C5" name="AVSS" type="power_in"/>
+        <pin num="D1" name="VBAT" type="power_in"/>
+        <pin num="D2" name="VBAT" type="power_in"/>
+        <pin num="D3" name="SHPHLD" type="bidirectional"/>
+        <pin num="D4" name="SHPACT" type="bidirectional"/>
+        <pin num="D5" name="ISET" type="bidirectional"/>
+        <pin num="E1" name="NTC" type="input"/>
+        <pin num="E2" name="ICHG" type="input"/>
+        <pin num="E3" name="ERR" type="output"/>
+        <pin num="E4" name="CHG" type="output"/>
+        <pin num="E5" name="MODE" type="bidirectional"/>
+      </pins>
+    </libpart>
+    <libpart lib="PTS830GM140 SMTR LFS" part="PTS830GM140SMTRLFS">
+      <docs>PTS830GM140SMTRLFS</docs>
+      <footprints>
+        <fp>SWITCH_0SMTRLFS</fp>
+        <fp>SWITCH_0SMTRLFS-M</fp>
+        <fp>SWITCH_0SMTRLFS-L</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U10</field>
+        <field name="Value">PTS830GM140SMTRLFS</field>
+        <field name="Footprint">SWITCH_0SMTRLFS</field>
+        <field name="Datasheet">PTS830GM140SMTRLFS</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="unspecified"/>
+        <pin num="2" name="2" type="unspecified"/>
+        <pin num="3" name="3" type="unspecified"/>
+        <pin num="4" name="4" type="unspecified"/>
+      </pins>
+    </libpart>
+    <libpart lib="Regulator_Linear" part="TPS7A0533PDBV">
+      <description>200-mA Ultra-Low-Iq LDO, 3.3V, SOT-23-5</description>
+      <docs>https://www.ti.com/lit/ds/symlink/tps7a05.pdf</docs>
+      <footprints>
+        <fp>SOT?23*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">TPS7A0533PDBV</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23-5</field>
+        <field name="Datasheet">https://www.ti.com/lit/ds/symlink/tps7a05.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="IN" type="power_in"/>
+        <pin num="2" name="GND" type="power_in"/>
+        <pin num="3" name="EN" type="input"/>
+        <pin num="4" name="NC" type="no_connect"/>
+        <pin num="5" name="OUT" type="power_out"/>
+      </pins>
+    </libpart>
+    <libpart lib="Switch" part="SW_Push">
+      <description>Push button switch, generic, two pins</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">SW_Push</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="2024-04-05_17-40-27">
+      <uri>/home/lassi/obsidian-vaults/studies/Courses/Embedded System Project/IMU-mouse/Design/HW/imu-mouse/symbols/FDV303N/KiCADv6/2024-04-05_17-40-27.kicad_sym</uri>
+    </library>
+    <library logical="2024-04-16_05-36-31">
+      <uri>/home/lassi/obsidian-vaults/studies/Courses/Embedded System Project/IMU-mouse/Design/HW/imu-mouse/symbols/SMLP34RGBN1W3/KiCADv6/2024-04-16_05-36-31.kicad_sym</uri>
+    </library>
+    <library logical="ANNA-B112">
+      <uri>/home/lassi/obsidian-vaults/studies/Courses/Embedded System Project/IMU-mouse/Design/HW/imu-mouse/symbols/ANNA_B112_70B/ANNA-B112-70B.kicad_sym</uri>
+    </library>
+    <library logical="BHI360">
+      <uri>/home/lassi/obsidian-vaults/studies/Courses/Embedded System Project/IMU-mouse/Design/HW/imu-mouse/symbols/BHI360/BHI360.kicad_sym</uri>
+    </library>
+    <library logical="BMA456">
+      <uri>/home/lassi/obsidian-vaults/studies/Courses/Embedded System Project/IMU-mouse/Design/HW/imu-mouse/symbols/BMA456/BMA456.kicad_sym</uri>
+    </library>
+    <library logical="BMM350">
+      <uri>/home/lassi/obsidian-vaults/studies/Courses/Embedded System Project/IMU-mouse/Design/HW/imu-mouse/symbols/BMM350/BMM350.kicad_sym</uri>
+    </library>
+    <library logical="Connector">
+      <uri>/usr/share/kicad/symbols//Connector.kicad_sym</uri>
+    </library>
+    <library logical="DMC2400UV">
+      <uri>/home/lassi/obsidian-vaults/studies/Courses/Embedded System Project/IMU-mouse/Design/HW/imu-mouse/symbols/DMC2400UV/DMC2400UV.kicad_sym</uri>
+    </library>
+    <library logical="Device">
+      <uri>/usr/share/kicad/symbols//Device.kicad_sym</uri>
+    </library>
+    <library logical="Mechanical">
+      <uri>/usr/share/kicad/symbols//Mechanical.kicad_sym</uri>
+    </library>
+    <library logical="NPM1100-CAAA-R7">
+      <uri>/home/lassi/obsidian-vaults/studies/Courses/Embedded System Project/IMU-mouse/Design/HW/imu-mouse/symbols/NPM1100-CAAA-R7/NPM1100-CAAA-R7.kicad_sym</uri>
+    </library>
+    <library logical="PTS830GM140 SMTR LFS">
+      <uri>/home/lassi/obsidian-vaults/studies/Courses/Embedded System Project/IMU-mouse/Design/HW/imu-mouse/symbols/PTS830GM140SMTRLFS/KiCADv6/2024-04-14_10-42-36.kicad_sym</uri>
+    </library>
+    <library logical="Regulator_Linear">
+      <uri>/usr/share/kicad/symbols//Regulator_Linear.kicad_sym</uri>
+    </library>
+    <library logical="Switch">
+      <uri>/usr/share/kicad/symbols//Switch.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="+1V8">
+      <node ref="C11" pin="1" pintype="passive"/>
+      <node ref="C12" pin="1" pintype="passive"/>
+      <node ref="C13" pin="1" pintype="passive"/>
+      <node ref="C14" pin="1" pintype="passive"/>
+      <node ref="C15" pin="1" pintype="passive"/>
+      <node ref="C16" pin="1" pintype="passive"/>
+      <node ref="C5" pin="1" pintype="passive"/>
+      <node ref="C8" pin="1" pintype="passive"/>
+      <node ref="J4" pin="1" pinfunction="VTref" pintype="power_in"/>
+      <node ref="L1" pin="1" pintype="passive"/>
+      <node ref="R11" pin="1" pintype="passive"/>
+      <node ref="R12" pin="1" pintype="passive"/>
+      <node ref="R13" pin="1" pintype="passive"/>
+      <node ref="R14" pin="1" pintype="passive"/>
+      <node ref="R19" pin="1" pintype="passive"/>
+      <node ref="R20" pin="1" pintype="passive"/>
+      <node ref="TP18" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="TP5" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="TP6" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U4" pin="B5" pinfunction="VOUTB" pintype="power_in"/>
+      <node ref="U5" pin="9" pinfunction="VCC" pintype="power_in"/>
+      <node ref="U6" pin="5" pinfunction="VDDIO" pintype="power_in"/>
+      <node ref="U6" pin="8" pinfunction="VDD" pintype="power_in"/>
+      <node ref="U7" pin="3" pinfunction="VDDIO" pintype="power_in"/>
+      <node ref="U7" pin="7" pinfunction="VDD" pintype="power_in"/>
+      <node ref="U8" pin="B3" pinfunction="VDDIO" pintype="bidirectional"/>
+      <node ref="U8" pin="C1" pinfunction="VDD" pintype="bidirectional"/>
+    </net>
+    <net code="2" name="+3.3V">
+      <node ref="C17" pin="1" pintype="passive"/>
+      <node ref="LED1" pin="1" pinfunction="1" pintype="unspecified"/>
+      <node ref="U9" pin="5" pinfunction="OUT" pintype="power_out"/>
+    </net>
+    <net code="3" name="+BATT">
+      <node ref="C1" pin="1" pintype="passive"/>
+      <node ref="J1" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="Q1" pin="4" pintype="passive"/>
+      <node ref="R17" pin="1" pintype="passive"/>
+      <node ref="SW1" pin="2" pinfunction="2" pintype="unspecified"/>
+      <node ref="SW1" pin="3" pinfunction="3" pintype="unspecified"/>
+      <node ref="TP1" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U4" pin="D1" pinfunction="VBAT" pintype="power_in"/>
+      <node ref="U4" pin="D2" pinfunction="VBAT" pintype="power_in"/>
+    </net>
+    <net code="5" name="/BAT_MON">
+      <node ref="R15" pin="2" pintype="passive"/>
+      <node ref="R16" pin="1" pintype="passive"/>
+      <node ref="U5" pin="27" pinfunction="GPIO_27" pintype="bidirectional"/>
+    </net>
+    <net code="6" name="/BAT_MON_EN">
+      <node ref="Q1" pin="2" pintype="passive"/>
+      <node ref="R18" pin="1" pintype="passive"/>
+      <node ref="U5" pin="28" pinfunction="GPIO_28" pintype="bidirectional"/>
+    </net>
+    <net code="7" name="/BHI360_CLK">
+      <node ref="TP11" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U5" pin="19" pinfunction="GPIO_19" pintype="bidirectional"/>
+      <node ref="U6" pin="13" pinfunction="HSCX" pintype="input"/>
+    </net>
+    <net code="8" name="/BHI360_CS">
+      <node ref="TP8" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U5" pin="25" pinfunction="GPIO_25" pintype="bidirectional"/>
+      <node ref="U6" pin="12" pinfunction="HCSB" pintype="input"/>
+    </net>
+    <net code="9" name="/BHI360_INT">
+      <node ref="TP7" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U5" pin="20" pinfunction="GPIO_20" pintype="bidirectional"/>
+      <node ref="U6" pin="4" pinfunction="HIRQ" pintype="input"/>
+    </net>
+    <net code="10" name="/BHI360_MISO">
+      <node ref="TP9" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U5" pin="23" pinfunction="GPIO_23" pintype="bidirectional"/>
+      <node ref="U6" pin="1" pinfunction="HSDO" pintype="bidirectional"/>
+    </net>
+    <net code="11" name="/BHI360_MOSI">
+      <node ref="TP10" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U5" pin="24" pinfunction="GPIO_24" pintype="bidirectional"/>
+      <node ref="U6" pin="14" pinfunction="HSDX" pintype="bidirectional"/>
+    </net>
+    <net code="12" name="/BMA456_CLK">
+      <node ref="TP14" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U5" pin="13" pinfunction="GPIO_13" pintype="bidirectional"/>
+      <node ref="U7" pin="12" pinfunction="SCX" pintype="input"/>
+    </net>
+    <net code="13" name="/BMA456_INT1">
+      <node ref="TP19" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U5" pin="35" pinfunction="GPIO_35" pintype="bidirectional"/>
+      <node ref="U7" pin="5" pinfunction="INT1" pintype="bidirectional"/>
+    </net>
+    <net code="14" name="/BMA456_MISO">
+      <node ref="TP12" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U5" pin="14" pinfunction="GPIO_14" pintype="bidirectional"/>
+      <node ref="U7" pin="1" pinfunction="SDO" pintype="bidirectional"/>
+    </net>
+    <net code="15" name="/BMA456_MOSI">
+      <node ref="TP13" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U5" pin="15" pinfunction="GPIO_15" pintype="bidirectional"/>
+      <node ref="U7" pin="2" pinfunction="SDX" pintype="bidirectional"/>
+    </net>
+    <net code="17" name="/LED_B">
+      <node ref="R8" pin="1" pintype="passive"/>
+      <node ref="U3" pin="1" pinfunction="G" pintype="unspecified"/>
+      <node ref="U5" pin="38" pinfunction="GPIO_38" pintype="bidirectional"/>
+    </net>
+    <net code="18" name="/LED_G">
+      <node ref="R7" pin="1" pintype="passive"/>
+      <node ref="U2" pin="1" pinfunction="G" pintype="unspecified"/>
+      <node ref="U5" pin="37" pinfunction="GPIO_37" pintype="bidirectional"/>
+    </net>
+    <net code="19" name="/LED_R">
+      <node ref="R6" pin="1" pintype="passive"/>
+      <node ref="U1" pin="1" pinfunction="G" pintype="unspecified"/>
+      <node ref="U5" pin="36" pinfunction="GPIO_36" pintype="bidirectional"/>
+    </net>
+    <net code="20" name="/NPM_CHG">
+      <node ref="D1" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="U4" pin="E4" pinfunction="CHG" pintype="output"/>
+    </net>
+    <net code="21" name="/NPM_ERR">
+      <node ref="D2" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="U4" pin="E3" pinfunction="ERR" pintype="output"/>
+    </net>
+    <net code="22" name="/SWD-BHI_JTAG_CLK">
+      <node ref="J6" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="U6" pin="15" pinfunction="M3SCL" pintype="input"/>
+    </net>
+    <net code="23" name="/SWD-BHI_JTAG_DIO">
+      <node ref="J5" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="U6" pin="16" pinfunction="JTSG_DIO" pintype="input"/>
+    </net>
+    <net code="24" name="/SWD-SWCLK">
+      <node ref="J4" pin="4" pinfunction="SWCLK/TCK" pintype="output"/>
+      <node ref="U5" pin="39" pinfunction="SWDCLK" pintype="input"/>
+    </net>
+    <net code="25" name="/SWD-SWDIO">
+      <node ref="J4" pin="2" pinfunction="SWDIO/TMS" pintype="bidirectional"/>
+      <node ref="U5" pin="40" pinfunction="SWDIO" pintype="bidirectional"/>
+    </net>
+    <net code="26" name="/SWD-SWO">
+      <node ref="J4" pin="6" pinfunction="SWO/TDO" pintype="input"/>
+      <node ref="U5" pin="16" pinfunction="SWO/GPIO_16" pintype="bidirectional"/>
+    </net>
+    <net code="27" name="/~{BMA456_CS}">
+      <node ref="R20" pin="2" pintype="passive"/>
+      <node ref="TP15" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U5" pin="34" pinfunction="GPIO_34" pintype="bidirectional"/>
+      <node ref="U7" pin="10" pinfunction="~{CS}" pintype="input"/>
+    </net>
+    <net code="28" name="/~{BUTTON1}">
+      <node ref="R11" pin="2" pintype="passive"/>
+      <node ref="SW3" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U5" pin="29" pinfunction="GPIO_29" pintype="bidirectional"/>
+    </net>
+    <net code="29" name="/~{BUTTON2}">
+      <node ref="R12" pin="2" pintype="passive"/>
+      <node ref="SW4" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U5" pin="30" pinfunction="GPIO_30" pintype="bidirectional"/>
+    </net>
+    <net code="30" name="/~{BUTTON3}">
+      <node ref="R13" pin="2" pintype="passive"/>
+      <node ref="SW5" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U5" pin="31" pinfunction="GPIO_31" pintype="bidirectional"/>
+    </net>
+    <net code="31" name="/~{RESET BHI360}">
+      <node ref="R19" pin="2" pintype="passive"/>
+      <node ref="U5" pin="45" pinfunction="GPIO_45" pintype="bidirectional"/>
+      <node ref="U6" pin="17" pinfunction="~{RESET}" pintype="input"/>
+    </net>
+    <net code="32" name="/~{RESET}">
+      <node ref="J4" pin="10" pinfunction="~{RESET}" pintype="open_collector"/>
+      <node ref="R14" pin="2" pintype="passive"/>
+      <node ref="SW2" pin="3" pinfunction="3" pintype="unspecified"/>
+      <node ref="U5" pin="12" pinfunction="~{RESET}" pintype="input"/>
+    </net>
+    <net code="33" name="GND">
+      <node ref="C1" pin="2" pintype="passive"/>
+      <node ref="C10" pin="2" pintype="passive"/>
+      <node ref="C11" pin="2" pintype="passive"/>
+      <node ref="C12" pin="2" pintype="passive"/>
+      <node ref="C13" pin="2" pintype="passive"/>
+      <node ref="C14" pin="2" pintype="passive"/>
+      <node ref="C15" pin="2" pintype="passive"/>
+      <node ref="C16" pin="2" pintype="passive"/>
+      <node ref="C17" pin="2" pintype="passive"/>
+      <node ref="C18" pin="2" pintype="passive"/>
+      <node ref="C2" pin="2" pintype="passive"/>
+      <node ref="C3" pin="2" pintype="passive"/>
+      <node ref="C4" pin="2" pintype="passive"/>
+      <node ref="C5" pin="2" pintype="passive"/>
+      <node ref="C6" pin="1" pintype="passive"/>
+      <node ref="C7" pin="2" pintype="passive"/>
+      <node ref="C8" pin="2" pintype="passive"/>
+      <node ref="C9" pin="2" pintype="passive"/>
+      <node ref="J2" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J3" pin="A12" pinfunction="GND" pintype="passive"/>
+      <node ref="J3" pin="B12" pinfunction="GND" pintype="passive"/>
+      <node ref="J3" pin="S1" pinfunction="SHIELD" pintype="passive"/>
+      <node ref="J4" pin="3" pinfunction="GND" pintype="power_in"/>
+      <node ref="J4" pin="5" pinfunction="GND" pintype="passive"/>
+      <node ref="J4" pin="9" pinfunction="GNDDetect" pintype="passive"/>
+      <node ref="Q1" pin="1" pintype="passive"/>
+      <node ref="R1" pin="2" pintype="passive"/>
+      <node ref="R10" pin="2" pintype="passive"/>
+      <node ref="R16" pin="2" pintype="passive"/>
+      <node ref="R18" pin="2" pintype="passive"/>
+      <node ref="R2" pin="2" pintype="passive"/>
+      <node ref="R3" pin="2" pintype="passive"/>
+      <node ref="R4" pin="2" pintype="passive"/>
+      <node ref="R5" pin="2" pintype="passive"/>
+      <node ref="R6" pin="2" pintype="passive"/>
+      <node ref="R7" pin="2" pintype="passive"/>
+      <node ref="R8" pin="2" pintype="passive"/>
+      <node ref="R9" pin="2" pintype="passive"/>
+      <node ref="SW1" pin="1" pinfunction="1" pintype="unspecified"/>
+      <node ref="SW2" pin="1" pinfunction="1" pintype="unspecified"/>
+      <node ref="SW3" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="SW4" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="SW5" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="TP2" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U4" pin="A1" pinfunction="D-" pintype="input"/>
+      <node ref="U4" pin="A5" pinfunction="PVSS" pintype="power_in"/>
+      <node ref="U4" pin="B3" pinfunction="VOUTBSET1" pintype="bidirectional"/>
+      <node ref="U4" pin="B4" pinfunction="VOUTBSET0" pintype="bidirectional"/>
+      <node ref="U4" pin="C3" pinfunction="VTERMSET" pintype="bidirectional"/>
+      <node ref="U4" pin="C4" pinfunction="AVSS" pintype="power_in"/>
+      <node ref="U4" pin="C5" pinfunction="AVSS" pintype="power_in"/>
+      <node ref="U4" pin="D3" pinfunction="SHPHLD" pintype="bidirectional"/>
+      <node ref="U4" pin="D4" pinfunction="SHPACT" pintype="bidirectional"/>
+      <node ref="U4" pin="D5" pinfunction="ISET" pintype="bidirectional"/>
+      <node ref="U4" pin="E5" pinfunction="MODE" pintype="bidirectional"/>
+      <node ref="U5" pin="10" pinfunction="GND__3" pintype="power_in"/>
+      <node ref="U5" pin="11" pinfunction="GND__4" pintype="power_in"/>
+      <node ref="U5" pin="2" pinfunction="ANT_GND1" pintype="power_in"/>
+      <node ref="U5" pin="3" pinfunction="ANT_GND2" pintype="power_in"/>
+      <node ref="U5" pin="32" pinfunction="GND__5" pintype="power_in"/>
+      <node ref="U5" pin="33" pinfunction="GND__6" pintype="power_in"/>
+      <node ref="U5" pin="4" pinfunction="GND" pintype="power_in"/>
+      <node ref="U5" pin="41" pinfunction="GND__7" pintype="power_in"/>
+      <node ref="U5" pin="42" pinfunction="GND__8" pintype="power_in"/>
+      <node ref="U5" pin="43" pinfunction="GND__9" pintype="power_in"/>
+      <node ref="U5" pin="44" pinfunction="GND__10" pintype="power_in"/>
+      <node ref="U5" pin="46" pinfunction="GND__11" pintype="power_in"/>
+      <node ref="U5" pin="47" pinfunction="GND__12" pintype="power_in"/>
+      <node ref="U5" pin="48" pinfunction="GND__13" pintype="power_in"/>
+      <node ref="U5" pin="49" pinfunction="EGP" pintype="power_in"/>
+      <node ref="U5" pin="50" pinfunction="EGP__1" pintype="power_in"/>
+      <node ref="U5" pin="51" pinfunction="EGP__2" pintype="power_in"/>
+      <node ref="U5" pin="52" pinfunction="EGP__3" pintype="power_in"/>
+      <node ref="U5" pin="7" pinfunction="GND__1" pintype="power_in"/>
+      <node ref="U5" pin="8" pinfunction="GND__2" pintype="power_in"/>
+      <node ref="U6" pin="6" pinfunction="GNDIO" pintype="power_in"/>
+      <node ref="U6" pin="7" pinfunction="GND" pintype="power_in"/>
+      <node ref="U7" pin="8" pinfunction="GNDIO" pintype="power_in"/>
+      <node ref="U7" pin="9" pinfunction="GND" pintype="power_in"/>
+      <node ref="U8" pin="B1" pinfunction="GND" pintype="bidirectional"/>
+      <node ref="U8" pin="B2" pinfunction="ADSEL" pintype="bidirectional"/>
+      <node ref="U8" pin="C3" pinfunction="BYPASS" pintype="bidirectional"/>
+      <node ref="U9" pin="2" pinfunction="GND" pintype="power_in"/>
+    </net>
+    <net code="34" name="Net-(J3-CC1)">
+      <node ref="J3" pin="A5" pinfunction="CC1" pintype="bidirectional"/>
+      <node ref="R10" pin="1" pintype="passive"/>
+    </net>
+    <net code="35" name="Net-(J3-CC2)">
+      <node ref="J3" pin="B5" pinfunction="CC2" pintype="bidirectional"/>
+      <node ref="R9" pin="1" pintype="passive"/>
+    </net>
+    <net code="36" name="Net-(Q1-Pad3)">
+      <node ref="Q1" pin="3" pintype="passive"/>
+      <node ref="R15" pin="1" pintype="passive"/>
+    </net>
+    <net code="37" name="Net-(Q1-Pad5)">
+      <node ref="Q1" pin="5" pintype="passive"/>
+      <node ref="Q1" pin="6" pintype="passive"/>
+      <node ref="R17" pin="2" pintype="passive"/>
+    </net>
+    <net code="38" name="Net-(U1-D)">
+      <node ref="R3" pin="1" pintype="passive"/>
+      <node ref="U1" pin="3" pinfunction="D" pintype="unspecified"/>
+    </net>
+    <net code="39" name="Net-(U1-S)">
+      <node ref="LED1" pin="2" pinfunction="2" pintype="unspecified"/>
+      <node ref="U1" pin="2" pinfunction="S" pintype="unspecified"/>
+    </net>
+    <net code="40" name="Net-(U2-D)">
+      <node ref="R4" pin="1" pintype="passive"/>
+      <node ref="U2" pin="3" pinfunction="D" pintype="unspecified"/>
+    </net>
+    <net code="41" name="Net-(U2-S)">
+      <node ref="LED1" pin="3" pinfunction="3" pintype="unspecified"/>
+      <node ref="U2" pin="2" pinfunction="S" pintype="unspecified"/>
+    </net>
+    <net code="42" name="Net-(U3-D)">
+      <node ref="R5" pin="1" pintype="passive"/>
+      <node ref="U3" pin="3" pinfunction="D" pintype="unspecified"/>
+    </net>
+    <net code="43" name="Net-(U3-S)">
+      <node ref="LED1" pin="4" pinfunction="4" pintype="unspecified"/>
+      <node ref="U3" pin="2" pinfunction="S" pintype="unspecified"/>
+    </net>
+    <net code="44" name="Net-(U4-DEC)">
+      <node ref="C2" pin="1" pintype="passive"/>
+      <node ref="U4" pin="A3" pinfunction="DEC" pintype="power_in"/>
+    </net>
+    <net code="45" name="Net-(U4-ICHG)">
+      <node ref="R1" pin="1" pintype="passive"/>
+      <node ref="U4" pin="E2" pinfunction="ICHG" pintype="input"/>
+    </net>
+    <net code="46" name="Net-(U4-NTC)">
+      <node ref="R2" pin="1" pintype="passive"/>
+      <node ref="U4" pin="E1" pinfunction="NTC" pintype="input"/>
+    </net>
+    <net code="47" name="Net-(U4-SW)">
+      <node ref="L1" pin="2" pintype="passive"/>
+      <node ref="U4" pin="A4" pinfunction="SW" pintype="power_in"/>
+    </net>
+    <net code="48" name="Net-(U5-ANT)">
+      <node ref="U5" pin="5" pinfunction="ANT_INT" pintype="bidirectional"/>
+      <node ref="U5" pin="6" pinfunction="ANT" pintype="bidirectional"/>
+    </net>
+    <net code="49" name="Net-(U5-XL1{slash}GPIO_17)">
+      <node ref="C6" pin="2" pintype="passive"/>
+      <node ref="U5" pin="17" pinfunction="XL1/GPIO_17" pintype="bidirectional"/>
+      <node ref="Y1" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="50" name="Net-(U5-XL2{slash}GPIO_18)">
+      <node ref="C7" pin="1" pintype="passive"/>
+      <node ref="U5" pin="18" pinfunction="XL2/GPIO_18" pintype="bidirectional"/>
+      <node ref="Y1" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="51" name="Net-(U6-ASCX)">
+      <node ref="TP16" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U6" pin="3" pinfunction="ASCX" pintype="input"/>
+      <node ref="U8" pin="A3" pinfunction="SCK" pintype="bidirectional"/>
+    </net>
+    <net code="52" name="Net-(U6-ASDX)">
+      <node ref="TP17" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U6" pin="2" pinfunction="ASDX" pintype="bidirectional"/>
+      <node ref="U8" pin="A2" pinfunction="SDA" pintype="bidirectional"/>
+    </net>
+    <net code="53" name="Net-(U6-VREG)">
+      <node ref="C9" pin="1" pintype="passive"/>
+      <node ref="U6" pin="9" pinfunction="VREG" pintype="power_in"/>
+    </net>
+    <net code="54" name="Net-(U8-CRST)">
+      <node ref="C18" pin="1" pintype="passive"/>
+      <node ref="U8" pin="C2" pinfunction="CRST" pintype="bidirectional"/>
+    </net>
+    <net code="55" name="VBUS">
+      <node ref="C3" pin="1" pintype="passive"/>
+      <node ref="J3" pin="A9" pinfunction="VBUS" pintype="passive"/>
+      <node ref="J3" pin="B9" pinfunction="VBUS" pintype="passive"/>
+      <node ref="TP3" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U4" pin="B1" pinfunction="VBUS" pintype="power_in"/>
+      <node ref="U4" pin="B2" pinfunction="VBUS" pintype="power_in"/>
+    </net>
+    <net code="56" name="VS">
+      <node ref="C10" pin="1" pintype="passive"/>
+      <node ref="C4" pin="1" pintype="passive"/>
+      <node ref="D1" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D2" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="TP4" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U4" pin="C1" pinfunction="VSYS" pintype="power_in"/>
+      <node ref="U4" pin="C2" pinfunction="VSYS" pintype="power_in"/>
+      <node ref="U9" pin="1" pinfunction="IN" pintype="power_in"/>
+      <node ref="U9" pin="3" pinfunction="EN" pintype="input"/>
+    </net>
+    <net code="57" name="unconnected-(H1-Pad1)">
+      <node ref="H1" pin="1" pinfunction="1" pintype="input"/>
+    </net>
+    <net code="58" name="unconnected-(H2-Pad1)">
+      <node ref="H2" pin="1" pinfunction="1" pintype="input"/>
+    </net>
+    <net code="59" name="unconnected-(H3-Pad1)">
+      <node ref="H3" pin="1" pinfunction="1" pintype="input"/>
+    </net>
+    <net code="60" name="unconnected-(J4-KEY-Pad7)">
+      <node ref="J4" pin="7" pinfunction="KEY" pintype="no_connect"/>
+    </net>
+    <net code="61" name="unconnected-(J4-NC{slash}TDI-Pad8)">
+      <node ref="J4" pin="8" pinfunction="NC/TDI" pintype="output+no_connect"/>
+    </net>
+    <net code="62" name="unconnected-(SW1-Pad5)">
+      <node ref="SW1" pin="5" pinfunction="5" pintype="unspecified+no_connect"/>
+    </net>
+    <net code="63" name="unconnected-(SW1-Pad6)">
+      <node ref="SW1" pin="6" pinfunction="6" pintype="unspecified+no_connect"/>
+    </net>
+    <net code="64" name="unconnected-(SW1-Pad7)">
+      <node ref="SW1" pin="7" pinfunction="7" pintype="unspecified+no_connect"/>
+    </net>
+    <net code="65" name="unconnected-(SW2-Pad2)">
+      <node ref="SW2" pin="2" pinfunction="2" pintype="unspecified+no_connect"/>
+    </net>
+    <net code="66" name="unconnected-(SW2-Pad4)">
+      <node ref="SW2" pin="4" pinfunction="4" pintype="unspecified+no_connect"/>
+    </net>
+    <net code="67" name="unconnected-(U4-D+-PadA2)">
+      <node ref="U4" pin="A2" pinfunction="D+" pintype="input+no_connect"/>
+    </net>
+    <net code="68" name="unconnected-(U5-ANT_PCB-Pad1)">
+      <node ref="U5" pin="1" pinfunction="ANT_PCB" pintype="passive+no_connect"/>
+    </net>
+    <net code="69" name="unconnected-(U5-GPIO_26-Pad26)">
+      <node ref="U5" pin="26" pinfunction="GPIO_26" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="70" name="unconnected-(U5-NFC1{slash}GPIO_21-Pad21)">
+      <node ref="U5" pin="21" pinfunction="NFC1/GPIO_21" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="71" name="unconnected-(U5-NFC2{slash}GPIO_22-Pad22)">
+      <node ref="U5" pin="22" pinfunction="NFC2/GPIO_22" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="72" name="unconnected-(U6-M3SDA-Pad18)">
+      <node ref="U6" pin="18" pinfunction="M3SDA" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="73" name="unconnected-(U6-OCSB-Pad10)">
+      <node ref="U6" pin="10" pinfunction="OCSB" pintype="input+no_connect"/>
+    </net>
+    <net code="74" name="unconnected-(U6-OSDO-Pad11)">
+      <node ref="U6" pin="11" pinfunction="OSDO" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="75" name="unconnected-(U6-RESV1-Pad20)">
+      <node ref="U6" pin="20" pinfunction="RESV1" pintype="no_connect"/>
+    </net>
+    <net code="76" name="unconnected-(U6-RESV2-Pad19)">
+      <node ref="U6" pin="19" pinfunction="RESV2" pintype="no_connect"/>
+    </net>
+    <net code="77" name="unconnected-(U7-ASCL-Pad11)">
+      <node ref="U7" pin="11" pinfunction="ASCL" pintype="output+no_connect"/>
+    </net>
+    <net code="78" name="unconnected-(U7-ASDA-Pad4)">
+      <node ref="U7" pin="4" pinfunction="ASDA" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="79" name="unconnected-(U7-INT2-Pad6)">
+      <node ref="U7" pin="6" pinfunction="INT2" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="80" name="unconnected-(U8-INT-PadA1)">
+      <node ref="U8" pin="A1" pinfunction="INT" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="81" name="unconnected-(U9-NC-Pad4)">
+      <node ref="U9" pin="4" pinfunction="NC" pintype="no_connect"/>
+    </net>
+  </nets>
+</export>
